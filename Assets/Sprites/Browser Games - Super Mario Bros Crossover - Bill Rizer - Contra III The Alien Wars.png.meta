@@ -1,0 +1,1618 @@
+fileFormatVersion: 2
+guid: 5b32dbe0c9d8fbf4ebd92f0e0ba98498
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 278
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d7890f42125fa4ba895b4d55b72c8f
+      internalID: -1033201655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 191
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a919c6b6f9f930479a235a8ef292eba
+      internalID: 1648754205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 249
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe8d9e3acb4bd24589fc608b77533ff
+      internalID: -713314103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 250
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2258191b6a52c244cade7db9434eeb35
+      internalID: 183755764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 24
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 280
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99840114d4ab9804780ad3bc5478045f
+      internalID: 897282790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 222
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fa5d92fb066584b8cf4bcfab705ed1
+      internalID: -701059262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 193
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bf3f98a445d504295b0456acd84755
+      internalID: 1332509978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 280
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0229463294718549911881ed559a94e
+      internalID: -1135410754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 280
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4234bc3e68c0d84499f3460fb91c0e4a
+      internalID: -712461812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 29
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 251
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a53ed6781f61a24e97e102b94f39ce4
+      internalID: -1891495510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e582f1ce823844345bf085f2c20de195
+      internalID: -2102818581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 209
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fdbcd1fa7e04440851069f67fb0ebc
+      internalID: 709620002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc90d07a6802144bd56e4f511c3663
+      internalID: 680288197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 203
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe2408d933d31f4da990908aa93dd19
+      internalID: 237771148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 178
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1f5560ed2ff5c47a755946d79261af
+      internalID: 2065234078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_41
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 180
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8318e04e6a0b5a42a7927e12331ef7a
+      internalID: -1042970959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 148
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a05cc81856e924995ac6f756191b97
+      internalID: -1252996627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 133
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d7785468961424fa22f44d4d3b906a
+      internalID: -725792923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb30bbe8a4c74734298cd09085498f01
+      internalID: -12143853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dc546da8ab6a743b04c12a97882923
+      internalID: 714256649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_61
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff6b9a7aa8cc1e499f3b715a728bdff
+      internalID: -1501483049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_62
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a197295c1f5f8d4082cf7ad48ee52cc
+      internalID: 341842811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e42e2047e7b6c141a637b2aec9befb7
+      internalID: -1566955116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_64
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241f2d8fbf484ae4e8574744b94e6c53
+      internalID: 1894361052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_65
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f182da9108dfd7f45ad561cfe6804e9b
+      internalID: -867767228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_66
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 86
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87813098591389f49ad769e75f4b2070
+      internalID: 293386485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_67
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 86
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fd828b32ad34e47811d1db74da8f72
+      internalID: 862963453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 74
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fabd4d0673c6f4e946c22e6386e227
+      internalID: -721001646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 74
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26078d4fc0a07a140b071b855c2c0ffe
+      internalID: -201515085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_72
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 74
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54a9cb4decd7134ead97f4a84799e87
+      internalID: -1819188027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_73
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 74
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975c5ded04f64cf4bb42a97ac9f54bce
+      internalID: 1854425934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_74
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 74
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a93042008fc1e45be8eb713c4ab3a5
+      internalID: 1927531655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_75
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ce1c00439e524a9dd2b5add492ec0
+      internalID: 1071994720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a858b89441c79614aa9e2f096336e95c
+      internalID: 1991691282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c31c7ddcf691b44a8f43e0e26482199
+      internalID: 907966003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_82
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518ad9cd9fec56f48b193662b24efa74
+      internalID: -387195365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_83
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 180
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115ec9e8f0cb63d4eade82b0d861c760
+      internalID: 929038649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_84
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d389a0cde00bf445999c5eed98d97d0
+      internalID: 1504343938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_85
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bef2f633867e16489f4541f4ff44366
+      internalID: 866866679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_86
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 178
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b13200831d10be4e906982bf5af623c
+      internalID: -285443148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_87
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6053304e596744dad39e0ab73c0cba
+      internalID: 1108400431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_88
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 162
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f9b0a1d5091bb449361485fac4ba4c
+      internalID: -632889892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 192
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562b03fc5c957fc4db7f9f3bcb843946
+      internalID: -347708503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 202
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2117327f96b06444844ff8433c38390
+      internalID: -1057894194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 151
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230e0ef7db115c349a2c212305edd38e
+      internalID: -223642838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 134
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b8b91962caace409c6fcb2a357d622
+      internalID: 195746525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 134
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74d62ecad427d409573452d666776f
+      internalID: -367272885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 28
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 251
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0693cb4c0fae7498798355046b5612
+      internalID: 82665398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 223
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a54283d4cb4dbf4f84e4f5616026c1a
+      internalID: 156638632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 194
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16186ad955aa9aa42b02fea329e8d230
+      internalID: 766582256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_18
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 224
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d661018e2502a4dbfca5d59ce822de
+      internalID: -30605522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 251
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71989798e51e263458dfa747aa1b59ae
+      internalID: 210820430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 147
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffc4117db468fd4ba18f3f2dbdeeb61
+      internalID: -516391022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 148
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dbd4304cb2ab24c8497bce06b449a8
+      internalID: -930541757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 147
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501e56b9bcb64fe4e82afee934884162
+      internalID: -232744225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 133
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ed8649e87fe0945b9c8653ca90804b
+      internalID: 795772289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 162
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527c02ec9f766144aac6a5a54d22c726
+      internalID: 40833854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 162
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71df09ce26496274399a51d9a3551e6a
+      internalID: -1102721580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III
+        The Alien Wars_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 137
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f76bf8e8bb2b994ea2fe34d729b1064
+      internalID: 143771911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 167
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c623a4df0faa548ba7827c523327e7
+      internalID: -1311623486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 165
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc64614b2483434c92a3253e4bb40fa
+      internalID: -1917567640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 164
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64832a96e3b9fd94ab8e2aec81fb9cd2
+      internalID: -1718468902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 136
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869d735d7a54d3a44922292235e3ad70
+      internalID: -8467944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 135
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc67cd319ba91704eb8abc88e12e2f13
+      internalID: 2004613320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_44: -1451840647
+      19: -1718468902
+      30: 210820430
+      35: -223642838
+      12: 237771148
+      6: -725792923
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_43: 793613151
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_75: 1071994720
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_87: 1108400431
+      5: 40833854
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_68: 960831625
+      29: -1891495510
+      37: -367272885
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_80: 1991691282
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_76: -814781782
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_54: 701690881
+      28: 82665398
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_61: -1501483049
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_85: 866866679
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_59: -1040658369
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_60: 714256649
+      23: 1332509978
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_63: -1566955116
+      27: -712461812
+      Head: -1033201655
+      32: 680288197
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_88: -632889892
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_18: -30605522
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_52: 948482369
+      4: -1102721580
+      9: -516391022
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_28: 143771911
+      14: 156638632
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_70: -721001646
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_51: 1226598336
+      22: -701059262
+      24: 897282790
+      33: 709620002
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_79: -2007023159
+      16: 766582256
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_37: -2055715316
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_38: 967530185
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_47: -1999721925
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_73: 1854425934
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_62: 341842811
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_35: 44366690
+      17: -1311623486
+      3: -347708503
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_84: 1504343938
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_64: 1894361052
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_53: -463004858
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_82: -387195365
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_83: 929038649
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_46: 1395821800
+      18: -1917567640
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_81: 907966003
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_57: 1616968591
+      21: 2004613320
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_48: -7119879
+      26: -1135410754
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_67: 862963453
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_71: -201515085
+      34: -12143853
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_86: -285443148
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_74: 1927531655
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_65: -867767228
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_66: 293386485
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_77: 1558208874
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_39: -990735429
+      25: 183755764
+      8: -1252996627
+      31: -2102818581
+      36: 195746525
+      11: -232744225
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_42: 1840426795
+      2: 1648754205
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_55: -2133975339
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_78: 1711166053
+      20: -8467944
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_72: -1819188027
+      13: -1057894194
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_40: 2065234078
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_56: -2092558952
+      1: -713314103
+      7: 795772289
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_58: 1744707893
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_41: -1042970959
+      Browser Games - Super Mario Bros Crossover - Bill Rizer - Contra III The Alien Wars_69: -1423889783
+      10: -930541757
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
