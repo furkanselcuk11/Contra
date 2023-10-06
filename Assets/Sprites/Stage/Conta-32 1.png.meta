@@ -1,0 +1,3617 @@
+fileFormatVersion: 2
+guid: c9ab4d6077682e6479b9040ea447c968
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conta-32 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503ff6b0b2de4274e8d7df4d96a7b9e3
+      internalID: 1702234389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f3a6b6d6263ab4aba7608e8dea01c8
+      internalID: -1900214433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aa97bac9fa6fa4a8777ef416cb7a58
+      internalID: 1065433213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e033c457a60b34db02640a9fa35ab3
+      internalID: -566685076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0960b5fb935938348b56e4c9cd7e06ac
+      internalID: -942351403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb99951ba540f8c4a8a38b0822f5cdd3
+      internalID: 2008982385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4408482610e1b41b5f1cad05916bae
+      internalID: 1209054485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac34d7959485c654db3588c1a1febbfb
+      internalID: 1842194704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f91a80fd77a2eb43bc0e7f06e023581
+      internalID: -1062180987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2df1e92c825f004cb9bde517930d69c
+      internalID: -991902731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c749a90781214d43884de296acf6205
+      internalID: -2087520941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a86677cc9b2efd43bbf5bb8b913a8e6
+      internalID: -869181291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96caa03e9c9b63f4da178302b3528eaa
+      internalID: 632681334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32333e3620c0ad24caf0a51d831a2b49
+      internalID: -699926927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc6d03f291ba7a409441fa57b8cc288
+      internalID: 2022201739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c80f463badb8c43875d3b32d5c6f60
+      internalID: 250575735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659b850c997048040a3837047daa99e3
+      internalID: 164146088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef759157bc44604ba68ad05f600e385
+      internalID: 714832906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae39e39201e39fd4e91c6bb8822f49d1
+      internalID: -405887508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba7cdaea77241242ae35eb642726334
+      internalID: 2027538638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8516399c1a23a4fbeffe18b9286690
+      internalID: 1255191431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d6f4e4236018d45ac52c1cb5aab7b6
+      internalID: -629272433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7150874bb016e8f4c9206c2db178456e
+      internalID: -957733481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca745c34363009f4e80515f7be61fef2
+      internalID: -983421486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e8ebfdffed85f4fa88a90ec2180371
+      internalID: 1316777014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdc410da6e91d3498b7201d4ea46e8d
+      internalID: -2035574214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c31a8ec2828154490ea960cc8b663b
+      internalID: -870938695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0e283894d57504c99d62051c0ab2f9
+      internalID: -1950892642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127d2708a5031bc45bc379b0354e3da0
+      internalID: -28275083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a741097887564429b9155f5d287d98
+      internalID: 1494338783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60bda2468a848640a7ff50a94a748d3
+      internalID: -1614849299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6debd9e6220383e4ca897ed0605fe3bb
+      internalID: 891623142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6103ed04f833e448eee367804b1503
+      internalID: -1271049700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_33
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee0366be9e57ea4d82c275641aefa09
+      internalID: 602129414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_34
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e957bc39deaac5e439eafa5accb6c666
+      internalID: -406528256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_35
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9142980975fe4b94db3fea10d6659af0
+      internalID: 1836817158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_36
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76896dd1769124b479da0a56e3bb6af7
+      internalID: 1436120257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_37
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4383dcbf188d8f14cbbb47b5287cf275
+      internalID: 212911931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_38
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96567a86715077e4482e9b534942504a
+      internalID: 932916562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_39
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22050a5549b89da4d8a71e6e8e605e83
+      internalID: 1459078519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_40
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cab2e9b1ce5f243bdee5a643ebd3de
+      internalID: 1645485230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_41
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4c8e29aea5b97418c76935a34555f2
+      internalID: -1551434211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_42
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2597ce47358624fa63008ea07d4415
+      internalID: -748731297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_43
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bbc21cc5619ab418d4fd1d2f675442
+      internalID: 1837881353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_44
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf79b67e2505c41970a3ceaa945d86
+      internalID: -1755818974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_45
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a40f992c773d6041918206b3ab9b56a
+      internalID: 295508021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_46
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a2fe28fb66016488d3838eb56fd131
+      internalID: 1423912900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_47
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d8b6b1d571cdd4d8dcde12a51bc75d
+      internalID: 1568847404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_48
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1d46250f8d473478e987c1fff5b3ba
+      internalID: -366147511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_49
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17deb12276a277d4b8ad1193b0f21450
+      internalID: -1703827762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_50
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 181
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc0af952447722489b1d583ebce1bc3
+      internalID: 1150129164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b43d368311034b4497a24f93ec53a3b
+      internalID: -250344191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c192b5e1d9db74ab2fd6468988e47d
+      internalID: -1378332519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79db5896cd73903448e7a79a71515461
+      internalID: -1463942188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febd6647ed80e3d4f87a241a5222030a
+      internalID: 1434292347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29af3ae9916aff74ca50cfb78e75a58e
+      internalID: -170541609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8976bceacddb0f84bac8399bfc6a5937
+      internalID: -784269060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_59
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d1f9273a597c74b8748b164260d775
+      internalID: 1798602393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7894861cee7f04283b07267643e1d9
+      internalID: -1473765503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_61
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c353e6e81b818641a1c447ffab20cb8
+      internalID: -2032461215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_62
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0033907c5471dc644bdb825e569cedbc
+      internalID: 811286484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_63
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42900aff4518c41a32b83e48b60393
+      internalID: 1402639298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_64
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c290f80755bb94e8c1e0eb527fa697
+      internalID: -909609737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_65
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2ec0ac02f9ca45b78ae682082db32
+      internalID: -459686272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b62898e37ff9544e8d81d571b7398aa
+      internalID: -617258844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_67
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c2131b6bcb41045ae7837166988850
+      internalID: -2071256154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_68
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8385b54e8e1d44c83ae15661a35086
+      internalID: 1367385452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_69
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a250de5bb77134aad0a23b84d4eb32
+      internalID: -1219125368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_70
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88d05401c9cde746ae972c2adfcd877
+      internalID: -1259524266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_71
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffbc8bb65e05334cbfc1b62cd758114
+      internalID: 825497505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_72
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f48c21a4c1a30f4aa9524fb2ca3f9ae
+      internalID: 1742239278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_73
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bd845add98efa4197720cbcda59075
+      internalID: 749425964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_74
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed5f8c5b8a3bf3469a9a66fc314af9d
+      internalID: -428845165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_75
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cef387132085d445bea3cce916f4459
+      internalID: 1017400083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_76
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184cc208585b1fe4ea1e6bf58fe764f8
+      internalID: -1971444618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_77
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800f3936c750c0a49ad7a8a2c982175d
+      internalID: -1749476907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_78
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4541ba61aeae342824705390d996ba
+      internalID: 489126070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_79
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067545fa4558094399920c9af1b184d
+      internalID: 1617975806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_80
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03161338ecbc6040b74059f5f143c07
+      internalID: -1950021455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_81
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d4b92d5182c414ba16d841b37be143
+      internalID: 951355832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_82
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d1694de3b6fe242b032c7458c79ff5
+      internalID: 998040984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_83
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8568c5aaea7a043bb8406782bb9875
+      internalID: 290944103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_84
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74d4467c3b20f441b84a5787a26de15
+      internalID: 471997226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_85
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032b18c962412f14eb64671173916e4a
+      internalID: 1143905111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_86
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e792c240875a61a40aef383e6abbc4b0
+      internalID: -186883000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_87
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5b02bc532a6264798463e290d8743a
+      internalID: -1710747716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_88
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39f8b84e18e3974183f0a019ddc3e4c
+      internalID: -1771956682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_89
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd77fc255956b054d96743099a12ac7e
+      internalID: -1697103394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_90
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84631ecc993ea0649a81b16cc79e3b9b
+      internalID: -2016285128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_91
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3a61f48c052c14ab38140ac6dc1480
+      internalID: 515758311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_92
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6cb7ad04ebe5a4dba28aae970fbc4d
+      internalID: -982728687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_93
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1f29dd46cacec49b0fe8e64173787c
+      internalID: 254253730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_94
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1201d9fe3be0144af05be93f95b22f
+      internalID: 1195400084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_95
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2391131589b5940a94d2074d526238
+      internalID: 734589490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_96
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8fa3ea70a739f499be4a98b0a43a77
+      internalID: 921359922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_97
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f6d1d4eff178841aecbd374d411d3d
+      internalID: 1530390205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_98
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27a3b7984592c840a0c6c7a8b8d17c7
+      internalID: -163518634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_99
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bceac2b811e56574389bf28dbd367080
+      internalID: 1412128602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_100
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2923e4929fd254384aca3430448bb4
+      internalID: -1342776515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_101
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ab88a8dc9b875409870f094c2b0450
+      internalID: -1926127824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_102
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b36c6419ec47bb408f02671a8cdb338
+      internalID: 1854703224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_103
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091832be17aab7843b2273fd7dfd27e3
+      internalID: 208217041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_104
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 117
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c9b426d18c798478126938beee2e2f
+      internalID: -249746368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4a4d619181b3348a34e54f9ab0f0b2
+      internalID: 255320726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e050b727f1748409cf88060eb67f51
+      internalID: 2061070137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252c9675cb46c734f83f2099ec0dec96
+      internalID: 1787114643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e67c2f501efec42ab4d2499e65bc22
+      internalID: -1747874340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd4852303a74004997347218d303611
+      internalID: 461994420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb61d7b7120ea424e831c41caef48b52
+      internalID: 1929257726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_114
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022dd4041daa1344088448ab415c7d2d
+      internalID: 198884365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_115
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cc3d9747065be4cb9b428f577657b1
+      internalID: 1347319926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_116
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1d0be194b6abf4e8bfbc4e46d4f516
+      internalID: 1847024621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_117
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e034c34566cc24bba02d0dab8dd05c
+      internalID: 161585431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_118
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfd72bed727aaf448a8619dd3d13b8c
+      internalID: -659668795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_119
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acc11ab5f1308a4181bc58cbcb1a0de
+      internalID: -858894098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_120
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8342b43701e641ba98f7cd2079d40
+      internalID: 336454820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_121
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed25987092029545ba176fe45bde8a1
+      internalID: -2052228929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_122
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8d51e993fd6244f99b1f68e1a324fd
+      internalID: -416084331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_123
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9497cee26a26164fa2a46225980b281
+      internalID: 750147946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_124
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb04be00a7277746adbcc02bbd795c1
+      internalID: -882938981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_125
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002ead7fbd67cbe4ba8eb81f180ad90e
+      internalID: 1510116133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_126
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac997cf53c23e4f45a77b91aafc8768b
+      internalID: -1406290062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_127
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17054d8540aaf684681baa748699ac33
+      internalID: 408174959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_128
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbace22e0b2fc94b8cdcdf50136ed9d
+      internalID: 1891007599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_129
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069ccbb32854ffd42a13dd29e74213ac
+      internalID: 1270318598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_130
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68014182dfbe3d4cb79eafcae7286b3
+      internalID: -2049171064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_131
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83289aba6f796f645a692b766548c681
+      internalID: 1800697985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_132
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572f30a206bd7844c8118ab54d745ea6
+      internalID: -1095372599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_133
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6140825be39bb346ae9abab506bbcfd
+      internalID: -278531031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_134
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decf452fb5baa4e488c9163f07f15df1
+      internalID: 1791243978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_135
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4667ae03337576d45b5aaf611deee792
+      internalID: 629736615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_136
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae12d1b856fdb2649b5cfc59874d71e9
+      internalID: -1737081342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_137
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00ce3b4d8c18f04a974d2241c597a9a
+      internalID: -706190143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_138
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103569a5e489134d9b906155c401e96
+      internalID: -660560190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_139
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070c4df3656d45842aca91e5c986e63d
+      internalID: 1781759232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_140
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d8a00945343444acae21084017166
+      internalID: 1184326983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_141
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b971dae45977964e8f62931706ceadf
+      internalID: -1342251694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_142
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d0585b7134883449404eae15cb463a
+      internalID: 961928453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_143
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938d239c54dcf8343af7438b6868bb55
+      internalID: 1448137505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_144
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14e8a3d40327094dbffd6b73e05824e
+      internalID: 931045373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_145
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635ce741d6664294ea97becd8f30fd96
+      internalID: -2004420931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_146
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bceae0ecc7f2c4dbd327000d66f4bb
+      internalID: -993845020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_147
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71279ad16aec0e345b6385ac5b837ec4
+      internalID: -934559143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_148
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f487a21202a580c4e96b78704592ae63
+      internalID: -1010508463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_149
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fc12321cb83f64f9a62129f6b17eb0
+      internalID: 1377609497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_150
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f25d8824d0d9148808cbf85543030c
+      internalID: -199062993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_151
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4839596f085e99c4a8329ebf2dec80fc
+      internalID: -470053244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_152
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc238db4a85a324695c80ec9aab6630
+      internalID: 1044894523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_153
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a063207c5f6954fbb1e12ad2d622c0
+      internalID: -1423454105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_154
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af37f49f04c54ac41a281047d5d81f57
+      internalID: -2520526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_155
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e883372a78ce64fb99f9b34a41f4cf
+      internalID: 1765071545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_156
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098704912915f62419afd4f8259ca86b
+      internalID: -1512989411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_157
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f3d75dcd9c96b44af7bfd9acbe8d2f
+      internalID: -645704454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_158
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92891216aa9b9be4092299173dd63ae7
+      internalID: 1514916500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_159
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 53
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eee73d0046a6254684a2b3a0c5fd50c
+      internalID: -1367283922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_160
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 44
+        width: 113
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0b303729112164497cac05623d20c7
+      internalID: 138433089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conta-32 1_52
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 21
+        width: 80
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34abc3efb40e3844b94390990feadbab
+      internalID: 226751883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Conta-32 1_57: -170541609
+      Conta-32 1_77: -1749476907
+      Conta-32 1_37: 212911931
+      Conta-32 1_78: 489126070
+      Conta-32 1_100: -1342776515
+      Conta-32 1_42: -748731297
+      Conta-32 1_43: 1837881353
+      Conta-32 1_104: -249746368
+      Conta-32 1_138: -660560190
+      Conta-32 1_105: -429259194
+      Conta-32 1_90: -2016285128
+      Conta-32 1_97: 1530390205
+      Conta-32 1_111: -1747874340
+      Conta-32 1_140: 1184326983
+      Conta-32 1_158: 1514916500
+      Conta-32 1_113: 1929257726
+      Conta-32 1_133: -278531031
+      Conta-32 1_5: 2008982385
+      Conta-32 1_83: 290944103
+      Conta-32 1_114: 198884365
+      Conta-32 1_47: 1568847404
+      Conta-32 1_108: 255320726
+      Conta-32 1_52: 226751883
+      Conta-32 1_94: 1195400084
+      Conta-32 1_116: 1847024621
+      Conta-32 1_159: -1367283922
+      Conta-32 1_84: 471997226
+      Conta-32 1_117: 161585431
+      Conta-32 1_134: 1791243978
+      Conta-32 1_63: 1402639298
+      Conta-32 1_50: 1150129164
+      Conta-32 1_135: 629736615
+      Conta-32 1_131: 1800697985
+      Conta-32 1_69: -1219125368
+      Conta-32 1_137: -706190143
+      Conta-32 1_4: -942351403
+      Conta-32 1_65: -459686272
+      Conta-32 1_46: 1423912900
+      Conta-32 1_75: 1017400083
+      Conta-32 1_103: 208217041
+      Conta-32 1_93: 254253730
+      Conta-32 1_26: -870938695
+      Conta-32 1_101: -1926127824
+      Conta-32 1_161: 1289910459
+      Conta-32 1_18: -405887508
+      Conta-32 1_58: -784269060
+      Conta-32 1_128: 1891007599
+      Conta-32 1_87: -1710747716
+      Conta-32 1_35: 1836817158
+      Conta-32 1_25: -2035574214
+      Conta-32 1_15: 250575735
+      Conta-32 1_29: 1494338783
+      Conta-32 1_32: -1271049700
+      Conta-32 1_143: 1448137505
+      Conta-32 1_149: 1377609497
+      Conta-32 1_123: 750147946
+      Conta-32 1_41: -1551434211
+      Conta-32 1_71: 825497505
+      Conta-32 1_160: 138433089
+      Conta-32 1_145: -2004420931
+      Conta-32 1_22: -957733481
+      Conta-32 1_148: -1010508463
+      Conta-32 1_130: -2049171064
+      Conta-32 1_9: -991902731
+      Conta-32 1_24: 1316777014
+      Conta-32 1_107: 628684372
+      Conta-32 1_139: 1781759232
+      Conta-32 1_66: -617258844
+      Conta-32 1_49: -1703827762
+      Conta-32 1_76: -1971444618
+      Conta-32 1_2: 1065433213
+      Conta-32 1_45: 295508021
+      Conta-32 1_125: 1510116133
+      Conta-32 1_17: 714832906
+      Conta-32 1_126: -1406290062
+      Conta-32 1_154: -2520526
+      Conta-32 1_3: -566685076
+      Conta-32 1_151: -470053244
+      Conta-32 1_86: -186883000
+      Conta-32 1_60: -1473765503
+      Conta-32 1_80: -1950021455
+      Conta-32 1_20: 1255191431
+      Conta-32 1_136: -1737081342
+      Conta-32 1_120: 336454820
+      Conta-32 1_99: 1412128602
+      Conta-32 1_8: -1062180987
+      Conta-32 1_12: 632681334
+      Conta-32 1_157: -645704454
+      Conta-32 1_110: 1787114643
+      Conta-32 1_141: -1342251694
+      Conta-32 1_11: -869181291
+      Conta-32 1_96: 921359922
+      Conta-32 1_91: 515758311
+      Conta-32 1_124: -882938981
+      Conta-32 1_81: 951355832
+      Conta-32 1_142: 961928453
+      Conta-32 1_82: 998040984
+      Conta-32 1_62: 811286484
+      Conta-32 1_88: -1771956682
+      Conta-32 1_6: 1209054485
+      Conta-32 1_129: 1270318598
+      Conta-32 1_10: -2087520941
+      Conta-32 1_155: 1765071545
+      Conta-32 1_118: -659668795
+      Conta-32 1_54: -1378332519
+      Conta-32 1_27: -1950892642
+      Conta-32 1_121: -2052228929
+      Conta-32 1_68: 1367385452
+      Conta-32 1_34: -406528256
+      Conta-32 1_92: -982728687
+      Conta-32 1_74: -428845165
+      Conta-32 1_109: 2061070137
+      Conta-32 1_152: 1044894523
+      Conta-32 1_38: 932916562
+      Conta-32 1_0: 1702234389
+      Conta-32 1_16: 164146088
+      Conta-32 1_21: -629272433
+      Conta-32 1_67: -2071256154
+      Conta-32 1_127: 408174959
+      Conta-32 1_48: -366147511
+      Conta-32 1_144: 931045373
+      Conta-32 1_36: 1436120257
+      Conta-32 1_89: -1697103394
+      Conta-32 1_7: 1842194704
+      Conta-32 1_56: 1434292347
+      Conta-32 1_14: 2022201739
+      Conta-32 1_85: 1143905111
+      Conta-32 1_53: 1495392160
+      Conta-32 1_102: 1854703224
+      Conta-32 1_59: 1798602393
+      Conta-32 1_112: 461994420
+      Conta-32 1_39: 1459078519
+      Conta-32 1_119: -858894098
+      Conta-32 1_150: -199062993
+      Conta-32 1_31: 891623142
+      Conta-32 1_40: 1645485230
+      Conta-32 1_64: -909609737
+      Conta-32 1_79: 1617975806
+      Conta-32 1_44: -1755818974
+      Conta-32 1_55: -1463942188
+      2: -250344191
+      Conta-32 1_98: -163518634
+      Conta-32 1_132: -1095372599
+      Conta-32 1_153: -1423454105
+      Conta-32 1_122: -416084331
+      Conta-32 1_33: 602129414
+      Conta-32 1_73: 749425964
+      Conta-32 1_70: -1259524266
+      Conta-32 1_146: -993845020
+      Conta-32 1_23: -983421486
+      Conta-32 1_61: -2032461215
+      Conta-32 1_19: 2027538638
+      Conta-32 1_28: -28275083
+      Conta-32 1_1: -1900214433
+      Conta-32 1_13: -699926927
+      Conta-32 1_30: -1614849299
+      Conta-32 1_95: 734589490
+      Conta-32 1_147: -934559143
+      Conta-32 1_115: 1347319926
+      Conta-32 1_106: 1459216599
+      Conta-32 1_72: 1742239278
+      Conta-32 1_156: -1512989411
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
