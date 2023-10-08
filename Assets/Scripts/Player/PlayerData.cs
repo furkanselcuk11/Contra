@@ -12,7 +12,6 @@ public class PlayerData : MonoBehaviour
         get { return _moveSpeed; }
         set { _moveSpeed = value; }
     }
-
     public float JumpSpeed
     {
         get { return _jumpSpeed; }
