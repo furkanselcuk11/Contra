@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 3416992402622197680}
   m_Layer: 0
   m_Name: Laser
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,6 +169,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bulletTypeNumber: 2
-  _speed: 250
+  _speed: 500
   _rateOfFire: 0.3
-  _bulletImpactPrefab: {fileID: 7870492313862044858, guid: 7ea89525bb5f1c549a9215148121de25, type: 3}

@@ -10,8 +10,7 @@ public class BulletController : MonoBehaviour
     [SerializeField] private float _speed = 5f;
     [SerializeField] private float _rateOfFire = 0.1f;
     bool _isFacingRight = true;
-
-    [SerializeField] private GameObject _bulletImpactPrefab;
+    
     public float RateOfFire { get => _rateOfFire; set => _rateOfFire = value; }
     public bool IsFacingRight { get => _isFacingRight; set => _isFacingRight = value; }
 
@@ -41,17 +40,8 @@ public class BulletController : MonoBehaviour
         // Enemylere çarparsa yok et
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Enemy is Hit");
-            EnemyHit(collision.gameObject);
+            BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
+            collision.gameObject.tag = "Untagged";
         }
-    }
-    void EnemyHit(GameObject enemy)
-    {
-        //Enemy içindeki EnemyHit fonk. çalýþacak
-        GameObject bulletImpact = Instantiate(_bulletImpactPrefab, this.gameObject.transform.position, Quaternion.identity);
-        Destroy(enemy, 0.5f);
-        Destroy(bulletImpact, 0.5f);
-        BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
-        enemy.tag = "Untagged";
     }
 }

@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 5116198989822191583}
   m_Layer: 0
   m_Name: Bullet_1
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,5 +170,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletTypeNumber: 0
   _speed: 250
-  _rateOfFire: 0.2
-  _bulletImpactPrefab: {fileID: 7870492313862044858, guid: 7ea89525bb5f1c549a9215148121de25, type: 3}
+  _rateOfFire: 0.15
