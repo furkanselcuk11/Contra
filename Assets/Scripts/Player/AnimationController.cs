@@ -7,6 +7,9 @@ public class AnimationController : MonoBehaviour
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
     bool _isFacingRight = true; // Karakterin baþlangýçta saða doðru bakýp bakmadýðýný saklar
+
+    public bool IsFacingRight { get => _isFacingRight; set => _isFacingRight = value; }
+
     void Start()
     {
         _animator = GetComponent<Animator>();
