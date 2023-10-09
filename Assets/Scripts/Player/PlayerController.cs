@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public PlayerData Data { get { return _data; } }
     private Rigidbody2D _rigidBody;
     [SerializeField] private Transform _groundCheck;
-    private bool _isGrounded;
+    private bool _isGrounded;    
 
     private float _horizontalMovement;
     private float _verticalMovement;
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-
+        
     }
     private void FixedUpdate()
     {
@@ -31,12 +32,12 @@ public class PlayerController : MonoBehaviour
 
         _horizontalMovement = Input.GetAxis("Horizontal");
         _verticalMovement = Input.GetAxis("Vertical");
-        
+
         Jump();
         Move();
     }
     void Move()
-    {       
+    {
         if (_isGrounded)
         {
             Vector2 newVelocity = new Vector2(_horizontalMovement * _data.MoveSpeed * Time.fixedDeltaTime, _rigidBody.velocity.y);
@@ -61,5 +62,5 @@ public class PlayerController : MonoBehaviour
 
             _animConttoller.Jump();
         }
-    }
+    }    
 }
