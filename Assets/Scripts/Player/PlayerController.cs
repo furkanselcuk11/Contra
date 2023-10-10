@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public PlayerData Data { get { return _data; } }
     private Rigidbody2D _rigidBody;
     [SerializeField] private Transform _groundCheck;
-    private bool _isGrounded;    
+    private bool _isGrounded;
 
     private float _horizontalMovement;
     private float _verticalMovement;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        
+        Jump();
     }
     private void FixedUpdate()
     {
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
         _horizontalMovement = Input.GetAxis("Horizontal");
         _verticalMovement = Input.GetAxis("Vertical");
 
-        Jump();
+        
         Move();
     }
     void Move()
@@ -55,12 +55,20 @@ public class PlayerController : MonoBehaviour
     }
     void Jump()
     {
-        if (_isGrounded && (Input.GetKey(KeyCode.Space)))
+        if ((_isGrounded && (Input.GetKeyDown(KeyCode.Space))) && (!Input.GetKey(KeyCode.S)))
         {
             _rigidBody.AddForce(Vector2.up * _data.JumpSpeed * Time.fixedDeltaTime, ForceMode2D.Impulse);
             _isGrounded = false;
 
             _animConttoller.Jump();
         }
-    }    
+    }
+    //private void OnCollisionExit2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("OneWayPlatform"))
+    //    {
+    //        _isGrounded = false;
+    //        _rigidBody.velocity = Vector2.zero;
+    //    }
+    //}
 }

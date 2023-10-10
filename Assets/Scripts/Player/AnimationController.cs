@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimationController : MonoBehaviour
 {
     private Animator _animator;
-    [SerializeField] private SpriteRenderer _spriteRendererTop;
+    //[SerializeField] private SpriteRenderer _spriteRendererTop;
     [SerializeField] private SpriteRenderer _spriteRenderer;    
     bool _isFacingRight = true; // Karakterin baþlangýçta saða doðru bakýp bakmadýðýný saklar
 
@@ -63,13 +63,13 @@ public class AnimationController : MonoBehaviour
         // spriteRenderer.flipX deðerini tersine çevir - Karakterin baktýðý yönü belirler
         _isFacingRight = !_isFacingRight;
         _spriteRenderer.flipX = !_spriteRenderer.flipX;
-        _spriteRendererTop.flipX = !_spriteRendererTop.flipX;
+        //_spriteRendererTop.flipX = !_spriteRendererTop.flipX;
 
-        if (!_spriteRendererTop.flipX)
-        {
-            Vector3 newPosition = _spriteRendererTop.transform.position;
-            newPosition.x = -0.3f;
-            _spriteRendererTop.transform.position = newPosition;
-        }
+        //if (!_spriteRendererTop.flipX)
+        //{
+        //    Vector3 newPosition = _spriteRendererTop.transform.position;
+        //    newPosition.x = -0.3f;
+        //    _spriteRendererTop.transform.position = newPosition;
+        //}
     }
 }
