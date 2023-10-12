@@ -25,6 +25,10 @@ public class AnimationController : MonoBehaviour
     {
         _animator.SetTrigger("Jump");
     }
+    public void JumpSound()
+    {
+        AudioManager.Instance.PlaySoundFX("Jump");
+    }
     public void Move(Vector2 velocity, float horizontalMovement, float verticalMovement)
     {
         // Hareket yönüne göre flipX deðerini ayarla

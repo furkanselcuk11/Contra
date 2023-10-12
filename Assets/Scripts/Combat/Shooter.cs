@@ -61,6 +61,7 @@ public class Shooter : MonoBehaviour
     {
         // Mermi atýþ sistemi
         GameObject bullet = _bulletObjectPool.GetPooledObject(_bulletTypeNumber);
+        AudioManager.Instance.PlaySoundFX("Gun1");
         if (GetComponent<AnimationController>().IsFacingRight)
         {
             bullet.transform.position = _muzzleRight.position;
