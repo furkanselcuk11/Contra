@@ -29,6 +29,10 @@ public class AnimationController : MonoBehaviour
     {
         AudioManager.Instance.PlaySoundFX("Jump");
     }
+    public void Die()
+    {
+        _animator.SetTrigger("Die");
+    }
     public void Move(Vector2 velocity, float horizontalMovement, float verticalMovement)
     {
         // Hareket yönüne göre flipX deðerini ayarla
@@ -61,6 +65,11 @@ public class AnimationController : MonoBehaviour
     {
         _animator.SetBool("isWalking", false);
         _animator.SetBool("isFalling", false);
+    }
+    public void ResetAnim()
+    {
+        _animator.ResetTrigger("Die");
+        _animator.SetTrigger("Jump");
     }
     private void FlipCharacter()
     {

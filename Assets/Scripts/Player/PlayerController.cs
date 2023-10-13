@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
         _horizontalMovement = Input.GetAxis("Horizontal");
         _verticalMovement = Input.GetAxis("Vertical");
 
-        
+
         Move();
     }
     void Move()
@@ -63,12 +63,28 @@ public class PlayerController : MonoBehaviour
             _animConttoller.Jump();
         }
     }
-    //private void OnCollisionExit2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("OneWayPlatform"))
-    //    {
-    //        _isGrounded = false;
-    //        _rigidBody.velocity = Vector2.zero;
-    //    }
-    //}
+    IEnumerator PlayerHit()
+    {
+        Debug.Log("Player Hit");
+        _rigidBody.AddForce(Vector2.up * _data.JumpSpeed / 1.5f * Time.fixedDeltaTime, ForceMode2D.Impulse);
+        yield return new WaitForSeconds(0.25f);
+        _animConttoller.Die();
+        AudioManager.Instance.PlaySoundFX("PlayerHit");    // Player vurulma çalacak
+        // Player caný 1 azalacak
+        yield return new WaitForSeconds(2f);
+        PlayerRestart();
+    }
+    void PlayerRestart()
+    {
+        transform.position = new Vector3(transform.position.x - 1f, 2f, transform.position.z);
+        _animConttoller.ResetAnim();
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Temas edilen nesne bir mermi mi kontrol edin
+        if (other.CompareTag("EnemyBullet"))
+        {
+            //StartCoroutine(PlayerHit());
+        }
+    }
 }

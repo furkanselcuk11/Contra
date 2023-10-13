@@ -22,8 +22,7 @@ public class BulletObjectPool : MonoBehaviour
     public Pool[] Pools { get => pools; set => pools = value; }
 
     private void Awake()
-    {
-        DontDestroyOnLoad(this);
+    {        
         if (Instance == null)
         {
             Instance = this;

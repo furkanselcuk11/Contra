@@ -10,7 +10,8 @@ public class BulletController : MonoBehaviour
     [SerializeField] private float _speed = 5f;
     [SerializeField] private float _rateOfFire = 0.1f;
     bool _isFacingRight = true;
-    
+    [SerializeField] private GameObject _bulletImpactPrefab;
+
     public float RateOfFire { get => _rateOfFire; set => _rateOfFire = value; }
     public bool IsFacingRight { get => _isFacingRight; set => _isFacingRight = value; }
 
@@ -33,7 +34,7 @@ public class BulletController : MonoBehaviour
         {
             _rigidbody.velocity = -transform.right * _speed * Time.fixedDeltaTime;
         }
-        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -41,6 +42,7 @@ public class BulletController : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
+            Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
             collision.gameObject.tag = "Untagged";
         }
     }

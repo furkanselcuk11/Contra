@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Bullet
   - OneWayPlatform
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

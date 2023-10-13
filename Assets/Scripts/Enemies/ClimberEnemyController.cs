@@ -8,13 +8,17 @@ public class ClimberEnemyController : MonoBehaviour
     [SerializeField] private float _speed = 50f;
     [SerializeField] private float _jumpSpeed = 250f;
 
-    [SerializeField] private GameObject _bulletImpactPrefab;
+    [SerializeField] private GameObject _enemyExplosionPrefab;
     private Rigidbody2D _rigidbody;
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
     private void FixedUpdate()
+    {
+        Move();
+    }
+    private void Move()
     {
         Vector2 newVelocity = new Vector2(transform.right.x * _speed * Time.fixedDeltaTime, _rigidbody.velocity.y);
         _rigidbody.velocity = newVelocity;
@@ -31,9 +35,10 @@ public class ClimberEnemyController : MonoBehaviour
     {
         _rigidbody.AddForce(Vector2.up * _jumpSpeed * Time.fixedDeltaTime, ForceMode2D.Impulse);
         yield return new WaitForSeconds(0.25f);
-        GetComponent<Collider2D>().enabled = false; 
+        GetComponent<Collider2D>().enabled = false;
+        AudioManager.Instance.PlaySoundFX("EnemyDie");
         Destroy(gameObject);
-        GameObject bulletImpact = Instantiate(_bulletImpactPrefab, this.gameObject.transform.position, Quaternion.identity);
+        GameObject bulletImpact = Instantiate(_enemyExplosionPrefab, this.gameObject.transform.position, Quaternion.identity);
         Destroy(bulletImpact, 0.5f);
     }
 }
