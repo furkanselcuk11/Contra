@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 7870492313862044859}
   - component: {fileID: 7870492313862044860}
   m_Layer: 0
-  m_Name: BulletImpact
+  m_Name: EnemyExplosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
