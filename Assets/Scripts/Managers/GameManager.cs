@@ -29,6 +29,11 @@ public class GameManager : MonoBehaviour
     public void GameStart()
     {
         SceneManager.LoadScene(2);
-        AudioManager.Instance.PlayMusic("JungleHangar");        
+        AudioManager.Instance.PlayMusic("JungleHangar");
+    }
+    public void GameOver()
+    {
+        Debug.Log("Game Over!!!");
+        SceneManager.LoadScene(0);
     }
 }

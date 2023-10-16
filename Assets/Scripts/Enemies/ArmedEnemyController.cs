@@ -9,12 +9,11 @@ using static UnityEditor.Experimental.GraphView.GraphView;
 public class ArmedEnemyController : MonoBehaviour
 {
     [Header("Move Settings")]
-    //[SerializeField] private float _speed = 50f;
     [SerializeField] private float _jumpSpeed = 250f;
     [Header("Chase Settings")]
     private GameObject _player;
     [SerializeField] private float _chaseDistance = 5f;
-    [SerializeField] private bool _isFire = false;
+    private bool _isFire = false;
     [Header("Gun Settings")]
     [SerializeField] private float _rateOfFire;
     private float _fireTimer;
@@ -103,14 +102,17 @@ public class ArmedEnemyController : MonoBehaviour
                 if (muzzleRotationZ >= -5f && muzzleRotationZ <= 5f)
                 {
                     _animator.SetTrigger("RightFire");
+                    _muzzleTransform.localPosition = new Vector3(_muzzleTransform.localPosition.x, 0.35f, _muzzleTransform.localPosition.z);
                 }
                 else if (muzzleRotationZ >= 20f && muzzleRotationZ <= 70f)
                 {
                     _animator.SetTrigger("UpFire");
+                    _muzzleTransform.localPosition = new Vector3(_muzzleTransform.localPosition.x, 0.65f, _muzzleTransform.localPosition.z);
                 }
                 else if (muzzleRotationZ >= -70f && muzzleRotationZ <= -20f)
                 {
                     _animator.SetTrigger("DownFire");
+                    _muzzleTransform.localPosition = new Vector3(_muzzleTransform.localPosition.x, -0.05f, _muzzleTransform.localPosition.z);
                 }
             }
             else
@@ -123,14 +125,17 @@ public class ArmedEnemyController : MonoBehaviour
                 if (muzzleRotationZ >= -5f && muzzleRotationZ <= 5f)
                 {
                     _animator.SetTrigger("RightFire");
+                    _muzzleTransform.localPosition = new Vector3(_muzzleTransform.localPosition.x, 0.35f, _muzzleTransform.localPosition.z);
                 }
                 else if (muzzleRotationZ >= -70f && muzzleRotationZ <= -20f)
                 {
                     _animator.SetTrigger("UpFire");
+                    _muzzleTransform.localPosition = new Vector3(_muzzleTransform.localPosition.x, 0.65f, _muzzleTransform.localPosition.z);
                 }
                 else if (muzzleRotationZ >= 20f && muzzleRotationZ <= 70f)
                 {
                     _animator.SetTrigger("DownFire");
+                    _muzzleTransform.localPosition = new Vector3(_muzzleTransform.localPosition.x, -0.05f, _muzzleTransform.localPosition.z);
                 }
             }
         }
