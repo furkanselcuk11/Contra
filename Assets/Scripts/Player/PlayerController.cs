@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rigidBody;
     [SerializeField] private Transform _groundCheck;
     private bool _isGrounded;
+    [SerializeField] private int _maxHealth = 3;
+    private int _health;
+    private bool _isCanBeShoot = true;
 
     private float _horizontalMovement;
     private float _verticalMovement;
@@ -17,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private AnimationController _animConttoller;
     void Start()
     {
+        _health = _maxHealth;
         _data = GetComponent<PlayerData>();
         _animConttoller = GetComponent<AnimationController>();
         _rigidBody = GetComponent<Rigidbody2D>();
@@ -66,25 +70,36 @@ public class PlayerController : MonoBehaviour
     IEnumerator PlayerHit()
     {
         Debug.Log("Player Hit");
+        _isCanBeShoot = false;
         _rigidBody.AddForce(Vector2.up * _data.JumpSpeed / 1.5f * Time.fixedDeltaTime, ForceMode2D.Impulse);
         yield return new WaitForSeconds(0.25f);
         _animConttoller.Die();
         AudioManager.Instance.PlaySoundFX("PlayerHit");    // Player vurulma çalacak
-        // Player caný 1 azalacak
-        yield return new WaitForSeconds(2f);
-        PlayerRestart();
+
+        _health = _health - 1;
+        Debug.Log("Health: " + _health);
+        if (_health <= 0)
+        {
+            Debug.Log("Player is Dead");
+            yield return new WaitForSeconds(2f);
+            GameManager.Instance.GameOver();
+        }
+        StartCoroutine(PlayerRestart());
     }
-    void PlayerRestart()
+    IEnumerator PlayerRestart()
     {
+        yield return new WaitForSeconds(2f);
         transform.position = new Vector3(transform.position.x - 1f, 2f, transform.position.z);
         _animConttoller.ResetAnim();
+        yield return new WaitForSeconds(2f);
+        _isCanBeShoot = true;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("EnemyBullet"))
         {
-            //StartCoroutine(PlayerHit());
+            if (_isCanBeShoot) StartCoroutine(PlayerHit());
         }
     }
 }
