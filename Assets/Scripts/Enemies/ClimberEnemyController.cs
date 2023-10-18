@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -43,7 +44,20 @@ public class ClimberEnemyController : MonoBehaviour
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet"))
         {
-            StartCoroutine(EnemyHit());
+            StartCoroutine(EnemyHit());            
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Temass");
+            PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+            if (player != null)
+            {
+                StartCoroutine(EnemyHit());
+                StartCoroutine(player.PlayerHit());
+            }
         }
     }
     private void Jump()

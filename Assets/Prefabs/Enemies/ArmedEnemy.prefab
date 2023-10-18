@@ -143,7 +143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994488790262820523}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.86, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -223,7 +223,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _jumpSpeed: 250
   _chaseDistance: 5
-  _isFire: 0
   _rateOfFire: 0.5
   _muzzleTransform: {fileID: 3472864559909305129}
   _bulletPrefab: {fileID: 5116198989822191582, guid: ea715105bb1d8594bb1d84c7522e2815, type: 3}

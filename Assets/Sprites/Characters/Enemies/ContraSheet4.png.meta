@@ -164,7 +164,7 @@ TextureImporter:
       name: ContraSheet4_1
       rect:
         serializedVersion: 2
-        x: 74
+        x: 73
         y: 436
         width: 32
         height: 32
@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_7
+      name: WeaponBox_L_UP60
       rect:
         serializedVersion: 2
         x: 5
@@ -308,10 +308,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_8
+      name: WeaponBox_UP
       rect:
         serializedVersion: 2
-        x: 39
+        x: 41
         y: 402
         width: 32
         height: 32
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_9
+      name: WeaponBox_R_UP60
       rect:
         serializedVersion: 2
         x: 73
@@ -476,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_16
+      name: WeaponBox_L_UP30
       rect:
         serializedVersion: 2
         x: 5
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_17
+      name: WeaponBox_Close_2
       rect:
         serializedVersion: 2
         x: 39
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_18
+      name: WeaponBox_R_UP30
       rect:
         serializedVersion: 2
         x: 73
@@ -665,11 +665,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_25
+      name: WeaponBox_Left
       rect:
         serializedVersion: 2
         x: 5
-        y: 334
+        y: 335
         width: 32
         height: 32
       alignment: 0
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_26
+      name: WeaponBox_Close_1
       rect:
         serializedVersion: 2
         x: 39
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_27
+      name: WeaponBox_Right
       rect:
         serializedVersion: 2
         x: 73
@@ -854,7 +854,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_34
+      name: WeaponBox_L_DOWN30
       rect:
         serializedVersion: 2
         x: 5
@@ -875,7 +875,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_35
+      name: WeaponBox_R_DOWN30
       rect:
         serializedVersion: 2
         x: 73
@@ -980,7 +980,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_40
+      name: WeaponBox_L_DOWN60
       rect:
         serializedVersion: 2
         x: 5
@@ -1001,7 +1001,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_41
+      name: WeaponBox_DOWN
       rect:
         serializedVersion: 2
         x: 39
@@ -1022,7 +1022,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ContraSheet4_42
+      name: WeaponBox_R_DOWN60
       rect:
         serializedVersion: 2
         x: 73
@@ -2633,50 +2633,48 @@ TextureImporter:
       ContraSheet4_36: 1201820822
       ContraSheet4_91: -946463969
       ContraSheet4_59: 815759449
+      WeaponBox_Close_2: -1190063298
       ContraSheet4_89: -66283737
       ContraSheet4_50: 303117538
       ContraSheet4_107: -221616866
       ContraSheet4_95: 947044403
       ContraSheet4_112: -605765025
+      WeaponBox_R_UP30: 372335455
       ContraSheet4_45: -1704489961
       ContraSheet4_70: 669413605
       ContraSheet4_103: -2105251554
       ContraSheet4_105: -1276893384
       ContraSheet4_15: -162155037
-      ContraSheet4_42: 1327399516
       ContraSheet4_47: 764398335
+      WeaponBox_Close_1: 2134849142
       ContraSheet4_55: -1076109868
       ContraSheet4_56: -787483561
       ContraSheet4_13: 1045786221
       ContraSheet4_87: -104597767
       ContraSheet4_76: 293045034
-      ContraSheet4_40: 1161362055
-      ContraSheet4_9: -1532970440
-      ContraSheet4_18: 372335455
       ContraSheet4_44: -614279709
       ContraSheet4_64: 194023019
-      ContraSheet4_25: -1643818421
       ContraSheet4_33: 1107371540
       ContraSheet4_60: 1601290862
-      ContraSheet4_17: -1190063298
       ContraSheet4_10: 1454686269
-      ContraSheet4_41: -1026058335
       ContraSheet4_81: -703084179
       ContraSheet4_52: 682907330
       ContraSheet4_117: -1073740194
       ContraSheet4_62: 1600364194
-      ContraSheet4_16: -1377292436
       ContraSheet4_29: -497523809
       ContraSheet4_75: -1445140344
       ContraSheet4_77: 235274859
-      ContraSheet4_80: -370890053
       ContraSheet4_99: 1742483199
       ContraSheet4_23: 2060689850
       ContraSheet4_51: -356032547
+      ContraSheet4_80: -370890053
       ContraSheet4_93: 1473164958
       ContraSheet4_63: 211976157
+      WeaponBox_R_DOWN30: 764046381
+      WeaponBox_UP: 272692900
       ContraSheet4_68: -531237655
       ContraSheet4_104: 1979068009
+      WeaponBox_Left: -1643818421
       ContraSheet4_111: 2002380291
       ContraSheet4_113: 404924695
       ContraSheet4_67: -1879797091
@@ -2688,19 +2686,22 @@ TextureImporter:
       ContraSheet4_46: 1202972339
       ContraSheet4_39: -1125546977
       ContraSheet4_3: 1018136079
+      WeaponBox_R_UP60: -1532970440
       ContraSheet4_94: 13476499
       ContraSheet4_79: -1962562167
       ContraSheet4_66: -343378244
       ContraSheet4_19: -351548573
-      ContraSheet4_35: 764046381
       ContraSheet4_6: -2056359636
       ContraSheet4_48: -2038360791
       ContraSheet4_21: 1588291853
       ContraSheet4_78: 93315083
       ContraSheet4_12: -1948411560
       ContraSheet4_65: -210209528
+      WeaponBox_L_DOWN60: 1161362055
       ContraSheet4_108: -1195127983
+      WeaponBox_R_DOWN60: 1327399516
       ContraSheet4_74: -1674321230
+      WeaponBox_L_UP30: -1377292436
       ContraSheet4_114: -82538906
       ContraSheet4_83: 1323752122
       ContraSheet4_109: 778277877
@@ -2708,11 +2709,10 @@ TextureImporter:
       ContraSheet4_57: -632789968
       ContraSheet4_2: -1830000231
       ContraSheet4_100: 898974899
-      ContraSheet4_7: 2108305525
+      WeaponBox_L_DOWN30: 702053302
       ContraSheet4_72: -483825067
       ContraSheet4_53: 1473581442
       ContraSheet4_11: 1236955516
-      ContraSheet4_27: 597662925
       ContraSheet4_96: -831020622
       ContraSheet4_116: 2137725909
       ContraSheet4_32: -446592609
@@ -2722,22 +2722,22 @@ TextureImporter:
       ContraSheet4_115: -1502105094
       ContraSheet4_98: 101160766
       ContraSheet4_24: -2005219344
-      ContraSheet4_8: 272692900
       ContraSheet4_43: -1305476239
+      WeaponBox_L_UP60: 2108305525
       ContraSheet4_85: -1230677075
       ContraSheet4_110: 1345743948
       ContraSheet4_82: 1542764312
       ContraSheet4_5: -626728077
       ContraSheet4_86: 2042404690
-      ContraSheet4_34: 702053302
       ContraSheet4_73: -1612812063
+      WeaponBox_Right: 597662925
       ContraSheet4_22: 914350291
       ContraSheet4_88: -1901197702
       ContraSheet4_84: -799483385
-      ContraSheet4_26: 2134849142
       ContraSheet4_61: 1841204085
-      ContraSheet4_90: -1962502685
       ContraSheet4_102: 1185739006
+      ContraSheet4_90: -1962502685
+      WeaponBox_DOWN: -1026058335
       ContraSheet4_49: -862695898
       ContraSheet4_106: -1492010953
       ContraSheet4_38: 628710276

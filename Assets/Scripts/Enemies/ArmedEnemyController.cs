@@ -152,7 +152,7 @@ public class ArmedEnemyController : MonoBehaviour
         GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
         bullet.transform.position = _muzzleTransform.position;
         bullet.transform.rotation = _muzzleTransform.rotation;
-        AudioManager.Instance.PlaySoundFX("Gun1");
+        AudioManager.Instance.PlaySoundFX("EnemyBullet");
         _fireTimer = 0f;
     }
     private void OnTriggerEnter2D(Collider2D other)
