@@ -67,9 +67,8 @@ public class PlayerController : MonoBehaviour
             _animConttoller.Jump();
         }
     }
-    IEnumerator PlayerHit()
+     public IEnumerator PlayerHit()
     {
-        Debug.Log("Player Hit");
         _isCanBeShoot = false;
         _rigidBody.AddForce(Vector2.up * _data.JumpSpeed / 1.5f * Time.fixedDeltaTime, ForceMode2D.Impulse);
         yield return new WaitForSeconds(0.25f);

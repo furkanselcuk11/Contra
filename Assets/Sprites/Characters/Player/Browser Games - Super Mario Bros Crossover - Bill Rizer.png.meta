@@ -496,6 +496,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: M
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 75
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce895342ecb7f34ea46e8c0c13322c9
+      internalID: 879772908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 75
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df3ba8cf70136f47bcb0282cd536d9a
+      internalID: -176316387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 75
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee01aeb42fd76e244bedd34bac7b3c7a
+      internalID: -1250066582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 75
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c874ffb14b34bb4f8f65271d422c6a4
+      internalID: -1651384524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 75
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc1a1dbad3ca754da328aff53c6e4bf
+      internalID: -337845623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 75
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cfe0cdf19114549b3e553f876287a2
+      internalID: -910590059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -507,30 +633,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Browser Games - Super Mario Bros Crossover - Bill Rizer_4: 1917622109
+      F: 1986267024
       BulletImpact_1: 1876532104
       BulletImpact_3: 174416816
       Bullet_4: -2049522803
       FireForawrdTop_2: -1037509245
       Browser Games - Super Mario Bros Crossover - Bill Rizer_5: -1560734927
-      Browser Games - Super Mario Bros Crossover - Bill Rizer_1: -1522577238
       FireForawrdBottom_3: 1787676850
       BulletImpact_2: -1571441072
+      L: -1416879818
       FireForawrdTop_1: -154011148
+      S: -1522577238
       Laser_3: 1924158227
       FireForawrdBottom_4: 1913014748
-      Browser Games - Super Mario Bros Crossover - Bill Rizer_3: 1986267024
       Browser Games - Super Mario Bros Crossover - Bill Rizer_6: -1512712586
       Bullet_1: -1853119775
+      Victory: 1917622109
       Laser_4: -2032453305
       FireForawrdBottom_1: 1310187777
+      R: -176316387
       FireForawrdBottom_: -1326091877
       Browser Games - Super Mario Bros Crossover - Bill Rizer_7: -1557054942
       Bullet_5: -1051871170
       Laser_2: -482468721
-      Browser Games - Super Mario Bros Crossover - Bill Rizer_2: -1416879818
       Bullet_2: 1955204648
       Laser_1: -435955620
+      M: 879772908
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

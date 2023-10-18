@@ -45,5 +45,15 @@ public class BulletController : MonoBehaviour
             Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
             collision.gameObject.tag = "Untagged";
         }
+        if (collision.gameObject.CompareTag("WeaponBox"))
+        {
+            BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
+            Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
+        }
+        if (collision.gameObject.CompareTag("BonusBox"))
+        {
+            BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
+            Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
+        }
     }
 }

@@ -9,6 +9,9 @@ TagManager:
   - Bullet
   - OneWayPlatform
   - EnemyBullet
+  - BonusBox
+  - WeaponBox
+  - Bonus
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - UI
   - Enemy
   - Player
-  - 
+  - ClamberEnemy
   - 
   - 
   - 
