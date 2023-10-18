@@ -14,6 +14,7 @@ public class ArmedEnemyController : MonoBehaviour
     private GameObject _player;
     [SerializeField] private float _chaseDistance = 5f;
     private bool _isFire = false;
+    private bool _isCanBeShoot = false;
     [Header("Gun Settings")]
     [SerializeField] private float _rateOfFire;
     private float _fireTimer;
@@ -23,6 +24,7 @@ public class ArmedEnemyController : MonoBehaviour
     [SerializeField] private GameObject _enemyExplosionPrefab;
     private Vector3 _enemyPosition;
     private float _enemyPositionX;
+    private bool _isDeath = false;
 
     private Rigidbody2D _rigidbody;
     private Animator _animator;
@@ -44,10 +46,12 @@ public class ArmedEnemyController : MonoBehaviour
         {
             // Eðer player ile arasýndaki mesafe _chaseDistance az ise Player'a bak ve Ateþ et
             _isFire = true;
+            _isCanBeShoot = true;
         }
         else
         {
             _isFire = false;
+            _isCanBeShoot = false;
             _animator.SetBool("Idle", true);
         }
         Fire();
@@ -158,13 +162,14 @@ public class ArmedEnemyController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
-        if (other.CompareTag("Bullet"))
+        if (other.CompareTag("Bullet") && _isCanBeShoot && !_isDeath)
         {
             StartCoroutine(EnemyHit());
         }
     }
     IEnumerator EnemyHit()
     {
+        _isDeath = true;
         _rigidbody.AddForce(Vector2.up * _jumpSpeed * Time.fixedDeltaTime, ForceMode2D.Impulse);
         yield return new WaitForSeconds(0.25f);
         GetComponent<Collider2D>().enabled = false;

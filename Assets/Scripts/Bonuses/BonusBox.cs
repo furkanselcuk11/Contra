@@ -15,6 +15,7 @@ public class BonusBox : MonoBehaviour
     private int _health;
     [SerializeField] private BonusType _bonusType;
     [SerializeField] private GameObject[] _bonuses;
+    private bool _bonusOpened = false;
     void Start()
     {
         _health = _maxHealth;
@@ -45,7 +46,7 @@ public class BonusBox : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
-        if (other.CompareTag("Bullet"))
+        if (other.CompareTag("Bullet") && !_bonusOpened)
         {
             StartCoroutine(BonusBoxHit());
         }
@@ -56,6 +57,7 @@ public class BonusBox : MonoBehaviour
         _health = _health - 1;
         if (_health <= 0)
         {
+            _bonusOpened = true;
             BonusOpen();
             yield return new WaitForSeconds(0.1f);
             BonusBoxDie();

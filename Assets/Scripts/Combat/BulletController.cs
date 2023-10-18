@@ -43,7 +43,6 @@ public class BulletController : MonoBehaviour
         {
             BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
             Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
-            collision.gameObject.tag = "Untagged";
         }
         if (collision.gameObject.CompareTag("WeaponBox"))
         {

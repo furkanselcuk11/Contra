@@ -50,7 +50,7 @@ public class Shooter : MonoBehaviour
         }
 
         _fireTimer += Time.deltaTime;
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && !GameManager.Instance.IsDeath)
         {
             // RateOfFire süresi aralýðýnda ateþ eder
             if (_fireTimer > _rateOfFire)

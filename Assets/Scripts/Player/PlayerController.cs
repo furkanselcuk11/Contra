@@ -16,6 +16,10 @@ public class PlayerController : MonoBehaviour
     private float _horizontalMovement;
     private float _verticalMovement;
 
+    private CapsuleCollider2D _collider;
+    private Vector2 _originalColliderSize;
+    private Vector2 _originalColliderOffset;
+
     private PlayerData _data;
     private AnimationController _animConttoller;
     void Start()
@@ -24,10 +28,13 @@ public class PlayerController : MonoBehaviour
         _data = GetComponent<PlayerData>();
         _animConttoller = GetComponent<AnimationController>();
         _rigidBody = GetComponent<Rigidbody2D>();
+        _collider = GetComponent<CapsuleCollider2D>();
+        _originalColliderSize = _collider.size;
+        _originalColliderOffset = _collider.offset;
     }
     void Update()
     {
-        Jump();
+        if (!GameManager.Instance.IsDeath) Jump();
     }
     private void FixedUpdate()
     {
@@ -37,8 +44,8 @@ public class PlayerController : MonoBehaviour
         _horizontalMovement = Input.GetAxis("Horizontal");
         _verticalMovement = Input.GetAxis("Vertical");
 
-
-        Move();
+        Crouch(_verticalMovement);
+        if (!GameManager.Instance.IsDeath) Move();
     }
     void Move()
     {
@@ -67,7 +74,22 @@ public class PlayerController : MonoBehaviour
             _animConttoller.Jump();
         }
     }
-     public IEnumerator PlayerHit()
+    void Crouch(float vercital)
+    {
+        if (vercital < -0.99f)
+        {
+            // Eðiliyor
+            _collider.offset = new Vector2(0f, -0.25f);
+            _collider.size = new Vector3(_collider.bounds.size.x, 0.45f);
+        }
+        else
+        {
+            // Ayakta
+            _collider.offset = _originalColliderOffset;
+            _collider.size = _originalColliderSize;
+        }
+    }
+    public IEnumerator PlayerHit()
     {
         _isCanBeShoot = false;
         _rigidBody.AddForce(Vector2.up * _data.JumpSpeed / 1.5f * Time.fixedDeltaTime, ForceMode2D.Impulse);
@@ -76,7 +98,7 @@ public class PlayerController : MonoBehaviour
         AudioManager.Instance.PlaySoundFX("PlayerHit");    // Player vurulma çalacak
 
         _health = _health - 1;
-        Debug.Log("Health: " + _health);
+        GameManager.Instance.IsDeath = true;
         if (_health <= 0)
         {
             Debug.Log("Player is Dead");
@@ -90,7 +112,8 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(2f);
         transform.position = new Vector3(transform.position.x - 1f, 2f, transform.position.z);
         _animConttoller.ResetAnim();
-        yield return new WaitForSeconds(2f);
+        GameManager.Instance.IsDeath = false;
+        yield return new WaitForSeconds(1f);
         _isCanBeShoot = true;
     }
     private void OnTriggerEnter2D(Collider2D other)
