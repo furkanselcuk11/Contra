@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        if (!GameManager.Instance.IsDeath) Jump();
+        if (!GameManager.Instance.IsDeath && GameManager.Instance.GameStarted) Jump();
     }
     private void FixedUpdate()
     {
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         _verticalMovement = Input.GetAxis("Vertical");
 
         Crouch(_verticalMovement);
-        if (!GameManager.Instance.IsDeath) Move();
+        if (!GameManager.Instance.IsDeath && GameManager.Instance.GameStarted) Move();
     }
     void Move()
     {

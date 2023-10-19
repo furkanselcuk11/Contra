@@ -27,11 +27,12 @@ public class WeaponBoxGray : MonoBehaviour
     [SerializeField] private int _maxHealth = 3;
     private int _health;
     private Animator _animator;
+    [SerializeField] private BulletObjectPool _bulletObjectPool = null;
 
-    
     private bool _isOpen = false;
     void Start()
     {
+        _bulletObjectPool = FindObjectOfType<BulletObjectPool>();
         _health = _maxHealth;
         _animator = GetComponent<Animator>();
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -116,7 +117,8 @@ public class WeaponBoxGray : MonoBehaviour
     }
     private void Shoot()
     {
-        GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
+        //GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
+        GameObject bullet = _bulletObjectPool.GetPooledObject(5);
         bullet.transform.position = _muzzleTransform.position;
         bullet.transform.rotation = _muzzleTransform.rotation;
         AudioManager.Instance.PlaySoundFX("EnemyBullet");

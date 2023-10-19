@@ -7,6 +7,8 @@ public class BulletEnemyController : MonoBehaviour
 {
     private Rigidbody2D _rigidbody;
     [SerializeField] private float _speed = 5f;
+    [SerializeField] int _bulletTypeNumber = 0;
+
     [SerializeField] private GameObject _bulletImpactPrefab;
     void Start()
     {
@@ -22,7 +24,10 @@ public class BulletEnemyController : MonoBehaviour
         // Player'a çarparsa yok et
         if (collision.gameObject.CompareTag("Player"))
         {            
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            //Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
+
+            BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
             Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
         }
     }

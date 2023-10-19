@@ -145,7 +145,7 @@ public class Shooter : MonoBehaviour
             AudioManager.Instance.PlaySoundFX("Gun1");
 
             // Rastgele bir açý seç
-            float angle = i * 15f;
+            float angle = i * 10f;
 
             if (GetComponent<AnimationController>().IsFacingRight)
             {
@@ -171,24 +171,19 @@ public class Shooter : MonoBehaviour
         if (collision.gameObject.CompareTag("Bonus"))
         {
             string bonusName = collision.gameObject.GetComponent<BonusMove>().Name;
-            Debug.Log("BONUS");
             switch (bonusName)
             {
                 case "M":
                     _bulletType = BulletType.bulletRed;
-                    Debug.Log("BulletType.bulletRed");
                     break;
                 case "L":
                     _bulletType = BulletType.bulletLaser;
-                    Debug.Log("BulletType.bulletLaser");
                     break;
                 case "S":
                     _bulletType = BulletType.bulletMultiple;
-                    Debug.Log("BulletType.bulletMultiple");
                     break;
                 case "F":
                     _bulletType = BulletType.bulletDouble;
-                    Debug.Log("BulletType.bulletDouble");
                     break;
                 case "R":
                     // Health arttýr
