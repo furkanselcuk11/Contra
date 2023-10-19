@@ -97,6 +97,8 @@ public class PlayerController : MonoBehaviour
         _animConttoller.Die();
         AudioManager.Instance.PlaySoundFX("PlayerHit");    // Player vurulma çalacak
 
+        GetComponent<Shooter>().ResetWeapon();
+
         _health = _health - 1;
         GameManager.Instance.IsDeath = true;
         if (_health <= 0)

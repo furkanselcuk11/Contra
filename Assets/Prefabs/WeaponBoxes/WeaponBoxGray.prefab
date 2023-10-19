@@ -202,8 +202,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rotationSpeed: 90
   _rateOfRotate: 1
-  _weaponOpenDistance: 6
-  _chaseFireDistance: 5
+  _weaponOpenDistance: 7
+  _chaseFireDistance: 6.5
   _rateOfFire: 1
   _weapon: {fileID: 5830559097164448612}
   _muzzleTransform: {fileID: 2882986250464659463}
