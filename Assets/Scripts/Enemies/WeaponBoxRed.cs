@@ -12,6 +12,7 @@ public class WeaponBoxRed : MonoBehaviour
     private GameObject _player;
     [SerializeField] private float _chaseFireDistance = 5f;
     private bool _isFire = false;
+    private bool _isCanBeShoot = false;
     [Header("Gun Settings")]
     [SerializeField] private float _rateOfFire;
     private float _fireTimer;
@@ -22,6 +23,7 @@ public class WeaponBoxRed : MonoBehaviour
     [SerializeField] private GameObject _enemyExplosionPrefab;
     [SerializeField] private int _maxHealth = 3;
     private int _health;
+
     void Start()
     {
         _health = _maxHealth;
@@ -32,10 +34,12 @@ public class WeaponBoxRed : MonoBehaviour
         if (DistanceToPlayer() < _chaseFireDistance)
         {
             _isFire = true;
+            _isCanBeShoot = true;
         }
         else
         {
             _isFire = false;
+            _isCanBeShoot = false;
         }
         Rotation();
         Fire();
@@ -67,7 +71,7 @@ public class WeaponBoxRed : MonoBehaviour
         {
             angle = 150f;
         }
-        else 
+        else
         {
             angle = 180f;
         }
@@ -97,7 +101,7 @@ public class WeaponBoxRed : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
-        if (other.CompareTag("Bullet"))
+        if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
             StartCoroutine(WeaponBoxRedHit());
         }

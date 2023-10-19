@@ -15,6 +15,7 @@ public class WeaponBoxGray : MonoBehaviour
     [SerializeField] private float _weaponOpenDistance = 6f;
     [SerializeField] private float _chaseFireDistance = 5f;
     private bool _isFire = false;
+    private bool _isCanBeShoot = false;
     [Header("Gun Settings")]
     [SerializeField] private float _rateOfFire;
     private float _fireTimer;
@@ -27,6 +28,7 @@ public class WeaponBoxGray : MonoBehaviour
     private int _health;
     private Animator _animator;
 
+    
     private bool _isOpen = false;
     void Start()
     {
@@ -45,10 +47,12 @@ public class WeaponBoxGray : MonoBehaviour
                 _isFire = true;
                 _animator.ResetTrigger("Open");
                 _weapon.SetActive(true);
+                _isCanBeShoot = true;
             }
             else
             {
                 _isFire = false;
+                _isCanBeShoot = false;
             }
         }
         else
@@ -121,7 +125,7 @@ public class WeaponBoxGray : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
-        if (other.CompareTag("Bullet"))
+        if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
             StartCoroutine(WeaponBoxGrayHit());
         }

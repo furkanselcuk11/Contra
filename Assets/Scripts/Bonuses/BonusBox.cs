@@ -16,6 +16,7 @@ public class BonusBox : MonoBehaviour
     [SerializeField] private BonusType _bonusType;
     [SerializeField] private GameObject[] _bonuses;
     private bool _bonusOpened = false;
+    private bool _isCanBeShoot = true;
     void Start()
     {
         _health = _maxHealth;
@@ -31,11 +32,13 @@ public class BonusBox : MonoBehaviour
         {
             ResetAnim();
             _animator.SetTrigger("Open");
+            _isCanBeShoot = true;
         }
         else
         {
             ResetAnim();
             _animator.SetTrigger("Close");
+            _isCanBeShoot = false;
         }
     }
     private void ResetAnim()
@@ -46,7 +49,7 @@ public class BonusBox : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
-        if (other.CompareTag("Bullet") && !_bonusOpened)
+        if (other.CompareTag("Bullet") && !_bonusOpened && _isCanBeShoot)
         {
             StartCoroutine(BonusBoxHit());
         }
