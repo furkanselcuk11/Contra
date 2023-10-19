@@ -23,9 +23,10 @@ public class WeaponBoxRed : MonoBehaviour
     [SerializeField] private GameObject _enemyExplosionPrefab;
     [SerializeField] private int _maxHealth = 3;
     private int _health;
-
+    [SerializeField] private BulletObjectPool _bulletObjectPool = null;
     void Start()
     {
+        _bulletObjectPool = FindObjectOfType<BulletObjectPool>();
         _health = _maxHealth;
         _player = GameObject.FindGameObjectWithTag("Player");
     }
@@ -92,7 +93,8 @@ public class WeaponBoxRed : MonoBehaviour
     }
     private void Shoot()
     {
-        GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
+        //GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
+        GameObject bullet = _bulletObjectPool.GetPooledObject(5);
         bullet.transform.position = _muzzleTransform.position;
         bullet.transform.rotation = _muzzleTransform.rotation;
         AudioManager.Instance.PlaySoundFX("EnemyBullet");

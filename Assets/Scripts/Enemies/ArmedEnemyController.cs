@@ -26,11 +26,13 @@ public class ArmedEnemyController : MonoBehaviour
     private float _enemyPositionX;
     private bool _isDeath = false;
 
+    [SerializeField] private BulletObjectPool _bulletObjectPool = null;
     private Rigidbody2D _rigidbody;
     private Animator _animator;
 
     void Start()
     {
+        _bulletObjectPool = FindObjectOfType<BulletObjectPool>();
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -153,7 +155,8 @@ public class ArmedEnemyController : MonoBehaviour
     }
     private void Shoot()
     {
-        GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
+        //GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
+        GameObject bullet = _bulletObjectPool.GetPooledObject(5);
         bullet.transform.position = _muzzleTransform.position;
         bullet.transform.rotation = _muzzleTransform.rotation;
         AudioManager.Instance.PlaySoundFX("EnemyBullet");

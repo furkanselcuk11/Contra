@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        _gameStarted = false;
+        _isDeath = false;
     }
     void Start()
     {
@@ -39,10 +41,12 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(2);
         AudioManager.Instance.PlayMusic("JungleHangar");
+        _gameStarted = true;
     }
     public void GameOver()
     {
         Debug.Log("Game Over!!!");
+        _gameStarted = false;
         SceneManager.LoadScene(0);
     }
 }
