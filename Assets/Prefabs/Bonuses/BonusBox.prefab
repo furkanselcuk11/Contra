@@ -201,7 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _chaseDistance: 5
   _bonusBoxExplosionPrefab: {fileID: 7870492313862044858, guid: 7ea89525bb5f1c549a9215148121de25, type: 3}
-  _maxHealth: 3
+  _maxHealth: 5
   _bonusType: 2
   _bonuses:
   - {fileID: 4066976899173954124, guid: 6a3baa20c0510014c8598e30a7cab46e, type: 3}

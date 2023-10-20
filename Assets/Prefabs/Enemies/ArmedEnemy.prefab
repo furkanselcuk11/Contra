@@ -165,8 +165,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1, y: -0.05}
-  m_Size: {x: 0.4, y: 0.9}
+  m_Offset: {x: -0.1, y: -0.09}
+  m_Size: {x: 0.4, y: 0.86}
   m_Direction: 0
 --- !u!50 &1994488790262820517
 Rigidbody2D:
@@ -227,3 +227,4 @@ MonoBehaviour:
   _muzzleTransform: {fileID: 3472864559909305129}
   _bulletPrefab: {fileID: 5116198989822191582, guid: ea715105bb1d8594bb1d84c7522e2815, type: 3}
   _enemyExplosionPrefab: {fileID: 7870492313862044858, guid: 7ea89525bb5f1c549a9215148121de25, type: 3}
+  _bulletObjectPool: {fileID: 0}

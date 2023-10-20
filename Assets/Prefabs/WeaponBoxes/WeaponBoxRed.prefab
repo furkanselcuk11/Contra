@@ -103,7 +103,8 @@ MonoBehaviour:
   _muzzleTransform: {fileID: 3101570428065919669}
   _bulletPrefab: {fileID: 5116198989822191582, guid: ea715105bb1d8594bb1d84c7522e2815, type: 3}
   _enemyExplosionPrefab: {fileID: 7870492313862044858, guid: 7ea89525bb5f1c549a9215148121de25, type: 3}
-  _maxHealth: 3
+  _maxHealth: 5
+  _bulletObjectPool: {fileID: 0}
 --- !u!1 &2172554153182591564
 GameObject:
   m_ObjectHideFlags: 0

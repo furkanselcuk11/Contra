@@ -129,15 +129,16 @@ public class WeaponBoxGray : MonoBehaviour
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
-            StartCoroutine(WeaponBoxGrayHit());
+            int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(WeaponBoxGrayHit(damage));
         }
     }
-    IEnumerator WeaponBoxGrayHit()
+    IEnumerator WeaponBoxGrayHit(int damage)
     {
         AudioManager.Instance.PlaySoundFX("EnemyHit");
-        _health = _health - 1;
+        _health = _health - damage;
         if (_health <= 0)
-        {         
+        {
             yield return new WaitForSeconds(0.1f);
             WeaponBoxGrayDie();
         }
