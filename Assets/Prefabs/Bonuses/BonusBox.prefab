@@ -209,3 +209,4 @@ MonoBehaviour:
   - {fileID: 8541770306857311118, guid: d901ca7055824d2449a1114bb7dd18fc, type: 3}
   - {fileID: 652403009174442235, guid: a09dfb831c9bd184cbe9dc0e4b8032f9, type: 3}
   - {fileID: 821448579019860416, guid: 55e732bdd0665c84cb676b960fb2cfb8, type: 3}
+  _bonusEndPos: {x: 1, y: 1.5, z: 0}
