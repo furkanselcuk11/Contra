@@ -9,6 +9,7 @@ public class BulletController : MonoBehaviour
     private Rigidbody2D _rigidbody;
     [SerializeField] int _bulletTypeNumber = 0;
     [SerializeField] private float _speed = 5f;
+    [SerializeField] private int _damage = 1;
     [SerializeField] private float _rateOfFire = 0.1f;
     bool _isFacingRight = true;
     [SerializeField] private bool _isBulletDouble = false;
@@ -19,6 +20,7 @@ public class BulletController : MonoBehaviour
 
     public float RateOfFire { get => _rateOfFire; set => _rateOfFire = value; }
     public bool IsFacingRight { get => _isFacingRight; set => _isFacingRight = value; }
+    public int Damage { get => _damage; set => _damage = value; }
 
     void Start()
     {

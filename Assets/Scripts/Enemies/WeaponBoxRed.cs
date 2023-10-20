@@ -105,13 +105,14 @@ public class WeaponBoxRed : MonoBehaviour
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
-            StartCoroutine(WeaponBoxRedHit());
+            int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(WeaponBoxRedHit(damage));
         }
     }
-    IEnumerator WeaponBoxRedHit()
+    IEnumerator WeaponBoxRedHit(int damage)
     {
         AudioManager.Instance.PlaySoundFX("EnemyHit");
-        _health = _health - 1;
+        _health = _health - damage;
         if (_health <= 0)
         {
             yield return new WaitForSeconds(0.1f);

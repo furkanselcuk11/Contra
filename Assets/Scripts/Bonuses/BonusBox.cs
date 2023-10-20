@@ -51,13 +51,14 @@ public class BonusBox : MonoBehaviour
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && !_bonusOpened && _isCanBeShoot)
         {
-            StartCoroutine(BonusBoxHit());
+            int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(BonusBoxHit(damage));
         }
     }
-    IEnumerator BonusBoxHit()
+    IEnumerator BonusBoxHit(int damage)
     {
         AudioManager.Instance.PlaySoundFX("EnemyHit");
-        _health = _health - 1;
+        _health = _health - damage;
         if (_health <= 0)
         {
             _bonusOpened = true;
