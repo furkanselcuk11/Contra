@@ -12,6 +12,7 @@ TagManager:
   - BonusBox
   - WeaponBox
   - Bonus
+  - Bridge
   layers:
   - Default
   - TransparentFX
