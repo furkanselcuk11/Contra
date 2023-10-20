@@ -287,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Contra ReBirth - Explosions_7
+      name: Explosion_2
       rect:
         serializedVersion: 2
         x: 349
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Contra ReBirth - Explosions_8
+      name: Explosion_1
       rect:
         serializedVersion: 2
         x: 392
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Contra ReBirth - Explosions_9
+      name: Explosion_5
       rect:
         serializedVersion: 2
         x: 430
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Contra ReBirth - Explosions_26
+      name: Explosion_3
       rect:
         serializedVersion: 2
         x: 350
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Contra ReBirth - Explosions_27
+      name: Explosion_4
       rect:
         serializedVersion: 2
         x: 389
@@ -728,7 +728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wii - Contra ReBirth - Explosions_28
+      name: Explosion_6
       rect:
         serializedVersion: 2
         x: 431
@@ -1307,11 +1307,11 @@ TextureImporter:
     nameFileIdTable:
       Wii - Contra ReBirth - Explosions_66: -287869346
       Wii - Contra ReBirth - Explosions_89: -1670029527
+      Explosion_6: 1701022510
       Wii - Contra ReBirth - Explosions_23: 2138805255
       Wii - Contra ReBirth - Explosions_56: -341005651
       Wii - Contra ReBirth - Explosions_102: -43661475
       Wii - Contra ReBirth - Explosions_5: 1824723079
-      Wii - Contra ReBirth - Explosions_28: 1701022510
       Wii - Contra ReBirth - Explosions_113: 866044813
       Wii - Contra ReBirth - Explosions_38: -610602038
       Wii - Contra ReBirth - Explosions_50: -1884668565
@@ -1319,6 +1319,7 @@ TextureImporter:
       Wii - Contra ReBirth - Explosions_35: -425933782
       Wii - Contra ReBirth - Explosions_60: -1594410611
       Wii - Contra ReBirth - Explosions_41: 350986461
+      Explosion_4: -1456896
       Wii - Contra ReBirth - Explosions_42: 575229018
       Wii - Contra ReBirth - Explosions_32: -772488513
       Wii - Contra ReBirth - Explosions_100: -1276430088
@@ -1338,9 +1339,9 @@ TextureImporter:
       Wii - Contra ReBirth - Explosions_69: -499503731
       Wii - Contra ReBirth - Explosions_30: 1167295384
       Wii - Contra ReBirth - Explosions_81: -527872024
+      Explosion_3: 220278665
       Wii - Contra ReBirth - Explosions_47: -1881970358
       Wii - Contra ReBirth - Explosions_65: -1327697256
-      Wii - Contra ReBirth - Explosions_27: -1456896
       Wii - Contra ReBirth - Explosions_21: -1902751901
       Wii - Contra ReBirth - Explosions_22: 320267931
       Wii - Contra ReBirth - Explosions_0: 1833481456
@@ -1355,16 +1356,13 @@ TextureImporter:
       Wii - Contra ReBirth - Explosions_40: 774714587
       Wii - Contra ReBirth - Explosions_57: 454039872
       Wii - Contra ReBirth - Explosions_53: 2023139784
-      Wii - Contra ReBirth - Explosions_7: 1862852996
       Wii - Contra ReBirth - Explosions_72: -349775582
       Wii - Contra ReBirth - Explosions_29: 1393295850
       Wii - Contra ReBirth - Explosions_11: -1981477334
       Wii - Contra ReBirth - Explosions_86: -1252361295
-      Wii - Contra ReBirth - Explosions_26: 220278665
       Wii - Contra ReBirth - Explosions_31: 1498443142
       Wii - Contra ReBirth - Explosions_34: 1929678337
       Wii - Contra ReBirth - Explosions_52: 989528700
-      Wii - Contra ReBirth - Explosions_8: -1922829798
       Wii - Contra ReBirth - Explosions_85: 394880424
       Wii - Contra ReBirth - Explosions_91: -1226819771
       Wii - Contra ReBirth - Explosions_33: -1882202957
@@ -1373,23 +1371,23 @@ TextureImporter:
       Wii - Contra ReBirth - Explosions_110: 254903359
       Wii - Contra ReBirth - Explosions_1: -1616009508
       Wii - Contra ReBirth - Explosions_77: -920108058
-      Wii - Contra ReBirth - Explosions_9: 1983468667
-      Wii - Contra ReBirth - Explosions_48: -1004472954
       Wii - Contra ReBirth - Explosions_112: -1357983832
+      Wii - Contra ReBirth - Explosions_48: -1004472954
       Wii - Contra ReBirth - Explosions_64: -1155988339
       Wii - Contra ReBirth - Explosions_98: 1009564346
       Wii - Contra ReBirth - Explosions_44: 1015207399
       Wii - Contra ReBirth - Explosions_51: 1642730909
       Wii - Contra ReBirth - Explosions_19: -397040545
+      Explosion_2: 1862852996
       Wii - Contra ReBirth - Explosions_74: 1077759571
       Wii - Contra ReBirth - Explosions_14: 1446238944
       Wii - Contra ReBirth - Explosions_2: 849376283
       Wii - Contra ReBirth - Explosions_111: -503622098
       Wii - Contra ReBirth - Explosions_24: 1259939209
       Wii - Contra ReBirth - Explosions_82: -1655990515
-      Wii - Contra ReBirth - Explosions_101: -892644820
-      Wii - Contra ReBirth - Explosions_49: 1977585942
       Wii - Contra ReBirth - Explosions_108: 452165703
+      Wii - Contra ReBirth - Explosions_49: 1977585942
+      Wii - Contra ReBirth - Explosions_101: -892644820
       Wii - Contra ReBirth - Explosions_70: -649916546
       Wii - Contra ReBirth - Explosions_105: 1890686451
       Wii - Contra ReBirth - Explosions_39: 143010032
@@ -1404,6 +1402,7 @@ TextureImporter:
       Wii - Contra ReBirth - Explosions_96: -728809112
       Wii - Contra ReBirth - Explosions_97: -1577325579
       Wii - Contra ReBirth - Explosions_10: -1216062656
+      Explosion_1: -1922829798
       Wii - Contra ReBirth - Explosions_25: 1079733976
       Wii - Contra ReBirth - Explosions_76: 1366408690
       Wii - Contra ReBirth - Explosions_90: -610071510
@@ -1415,6 +1414,7 @@ TextureImporter:
       Wii - Contra ReBirth - Explosions_37: -82431029
       Wii - Contra ReBirth - Explosions_45: 721428639
       Wii - Contra ReBirth - Explosions_16: -1145375816
+      Explosion_5: 1983468667
       Wii - Contra ReBirth - Explosions_68: 342836524
       Wii - Contra ReBirth - Explosions_109: 1099286601
       Wii - Contra ReBirth - Explosions_94: -1331199874

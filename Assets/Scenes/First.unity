@@ -253,6 +253,12 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
+  - source: {fileID: 0}
+    name: Explosion
+    clip: {fileID: 8300000, guid: 35a94ae0dba5c0f4499a10091ac54302, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
 --- !u!1 &104506845
 GameObject:
   m_ObjectHideFlags: 0
