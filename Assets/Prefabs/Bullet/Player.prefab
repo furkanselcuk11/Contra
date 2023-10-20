@@ -189,6 +189,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _groundCheck: {fileID: 5313895750008616343}
+  _camera: {fileID: 0}
+  _playerXAxisLimitTransform: {fileID: 0}
+  _playerXAxisLimit: 4
   _maxHealth: 100
 --- !u!114 &5313895749846808890
 MonoBehaviour:

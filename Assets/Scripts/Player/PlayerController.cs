@@ -2,12 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
     public PlayerData Data { get { return _data; } }
     private Rigidbody2D _rigidBody;
     [SerializeField] private Transform _groundCheck;
+    [SerializeField] private Transform _camera;
+    [SerializeField] private Transform _playerXAxisLimitTransform;
+    [SerializeField] private float _playerXAxisLimit = 5f;
     private bool _isGrounded;
     [SerializeField] private int _maxHealth = 3;
     private int _health;
@@ -35,6 +39,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (!GameManager.Instance.IsDeath && GameManager.Instance.GameStarted) Jump();
+
     }
     private void FixedUpdate()
     {
@@ -53,6 +58,16 @@ public class PlayerController : MonoBehaviour
         {
             Vector2 newVelocity = new Vector2(_horizontalMovement * _data.MoveSpeed * Time.fixedDeltaTime, _rigidBody.velocity.y);
             _rigidBody.velocity = newVelocity;
+
+            if (_horizontalMovement > 0)
+            {
+                // Karakterin sol sýnýra geçmesini engelle
+                Vector3 objePozisyon = _playerXAxisLimitTransform.position;
+                // Sadece X pozisyonunu deðiþtir
+                objePozisyon.x = _camera.position.x - _playerXAxisLimit;
+                // Objeyi güncelle
+                _playerXAxisLimitTransform.position = objePozisyon;
+            }
         }
         else
         {
