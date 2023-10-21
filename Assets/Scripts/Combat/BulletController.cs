@@ -74,5 +74,10 @@ public class BulletController : MonoBehaviour
             BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
             Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
         }
+        if (collision.gameObject.CompareTag("RedDoor"))
+        {
+            BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
+            Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
+        }
     }
 }

@@ -13,6 +13,8 @@ TagManager:
   - WeaponBox
   - Bonus
   - Bridge
+  - RedDoor
+  - PlayerXAxisLimit
   layers:
   - Default
   - TransparentFX

@@ -21,7 +21,6 @@ public class WeaponBoxGray : MonoBehaviour
     private float _fireTimer;
     [SerializeField] private GameObject _weapon; // Silahýn Transform bileþeni   
     [SerializeField] private Transform _muzzleTransform; // Silahýn Transform bileþeni
-    [SerializeField] private GameObject _bulletPrefab;
     [Space]
     [SerializeField] private GameObject _enemyExplosionPrefab;
     [SerializeField] private int _maxHealth = 3;
@@ -117,7 +116,6 @@ public class WeaponBoxGray : MonoBehaviour
     }
     private void Shoot()
     {
-        //GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
         GameObject bullet = _bulletObjectPool.GetPooledObject(5);
         bullet.transform.position = _muzzleTransform.position;
         bullet.transform.rotation = _muzzleTransform.rotation;
