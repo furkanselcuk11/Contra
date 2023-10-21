@@ -204,10 +204,9 @@ MonoBehaviour:
   _rateOfRotate: 1
   _weaponOpenDistance: 7
   _chaseFireDistance: 6.5
-  _rateOfFire: 1
+  _rateOfFire: 1.5
   _weapon: {fileID: 5830559097164448612}
   _muzzleTransform: {fileID: 2882986250464659463}
-  _bulletPrefab: {fileID: 5116198989822191582, guid: ea715105bb1d8594bb1d84c7522e2815, type: 3}
   _enemyExplosionPrefab: {fileID: 7870492313862044858, guid: 7ea89525bb5f1c549a9215148121de25, type: 3}
   _maxHealth: 5
   _bulletObjectPool: {fileID: 0}

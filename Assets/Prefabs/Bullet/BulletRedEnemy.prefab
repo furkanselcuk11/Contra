@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8361735244478685589}
   - component: {fileID: 8361735244478685588}
   - component: {fileID: 8361735244478685591}
-  - component: {fileID: 8361735244478685590}
+  - component: {fileID: -5668004014423030996}
   m_Layer: 0
-  m_Name: BulletRed
-  m_TagString: Bullet
+  m_Name: BulletRedEnemy
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,12 +50,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 20
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!58 &8361735244478685591
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -72,7 +72,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.05
---- !u!114 &8361735244478685590
+--- !u!114 &-5668004014423030996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81,15 +81,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 8361735244478685577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19b85a97fc4216a409861f58019fd119, type: 3}
+  m_Script: {fileID: 11500000, guid: eaac8406a7a18f34a9de1e82cd1fe75f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletTypeNumber: 1
-  _speed: 250
-  _damage: 2
-  _rateOfFire: 0.2
-  _isBulletDouble: 0
-  _rotationSpeed: 100
+  _speed: 3
+  _bulletTypeNumber: 6
+  _shootAngle: 5
+  baslangicHizi: 12
+  ivme: 2
+  sinValue: 2
   _bulletImpactPrefab: {fileID: 848633202347873317, guid: 903f4c439a6bc164bbad5a750539852f, type: 3}
 --- !u!1 &8361735244792420796
 GameObject:

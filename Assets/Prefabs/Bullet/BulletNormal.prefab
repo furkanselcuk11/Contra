@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1853119775, guid: 2ac5ef53d3be0d044a886677fe37d7b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -170,5 +170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletTypeNumber: 0
   _speed: 250
+  _damage: 1
   _rateOfFire: 0.15
+  _isBulletDouble: 0
+  _rotationSpeed: 100
   _bulletImpactPrefab: {fileID: 848633202347873317, guid: 903f4c439a6bc164bbad5a750539852f, type: 3}

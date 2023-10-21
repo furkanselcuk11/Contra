@@ -37,7 +37,7 @@ public class ClimberEnemyController : MonoBehaviour
         {
             _isCanBeShoot = false;
         }
-        Jump();
+        if (_isCanBeShoot) Jump();
     }
     private void FixedUpdate()
     {
@@ -65,7 +65,6 @@ public class ClimberEnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && _isCanBeShoot && !_isDeath)
         {
-            Debug.Log("Temass");
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
             if (player != null)
             {

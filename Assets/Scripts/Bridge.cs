@@ -13,7 +13,6 @@ public class Bridge : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && !_isBridgeExploded)
         {
             _isBridgeExploded = true;
-            Debug.Log("BridgeExploded");
             StartCoroutine(BridgeExplosion());
         }
     }
