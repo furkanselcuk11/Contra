@@ -63,11 +63,13 @@ public class BulletController : MonoBehaviour
         {
             BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
             Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
+            ScoreUpdate(100);
         }
         if (collision.gameObject.CompareTag("WeaponBox"))
         {
             BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
             Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
+            ScoreUpdate(200);
         }
         if (collision.gameObject.CompareTag("BonusBox"))
         {
@@ -78,6 +80,13 @@ public class BulletController : MonoBehaviour
         {
             BulletObjectPool.Instance.SetPooledObject(this.gameObject, _bulletTypeNumber);
             Destroy(Instantiate(_bulletImpactPrefab, transform.position, Quaternion.identity), 0.1f);
+            ScoreUpdate(500);
         }
+    }
+    private void ScoreUpdate(int value)
+    {
+        int score = PlayerPrefs.GetInt("Score");
+        score += value;
+        PlayerPrefs.SetInt("Score", score);
     }
 }

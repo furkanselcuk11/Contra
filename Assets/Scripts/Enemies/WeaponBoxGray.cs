@@ -38,32 +38,35 @@ public class WeaponBoxGray : MonoBehaviour
     }
     void Update()
     {
-        if (DistanceToPlayer() < _weaponOpenDistance)
+        if (_player != null)
         {
-            _animator.SetTrigger("Open");
-            _isOpen = true;
-            if (DistanceToPlayer() < _chaseFireDistance)
+            if (DistanceToPlayer() < _weaponOpenDistance)
             {
-                _isFire = true;
-                _animator.ResetTrigger("Open");
-                _weapon.SetActive(true);
-                _isCanBeShoot = true;
+                _animator.SetTrigger("Open");
+                _isOpen = true;
+                if (DistanceToPlayer() < _chaseFireDistance)
+                {
+                    _isFire = true;
+                    _animator.ResetTrigger("Open");
+                    _weapon.SetActive(true);
+                    _isCanBeShoot = true;
+                }
+                else
+                {
+                    _isFire = false;
+                    _isCanBeShoot = false;
+                }
             }
             else
             {
+                _weapon.SetActive(false);
+                _isOpen = false;
                 _isFire = false;
-                _isCanBeShoot = false;
             }
-        }
-        else
-        {
-            _weapon.SetActive(false);
-            _isOpen = false;
-            _isFire = false;
-        }
 
-        Rotation();
-        Fire();
+            Rotation();
+            Fire();
+        }
     }
     public void WeaponActive()
     {
@@ -116,19 +119,22 @@ public class WeaponBoxGray : MonoBehaviour
     }
     private void Shoot()
     {
-        GameObject bullet = _bulletObjectPool.GetPooledObject(5);
-        bullet.transform.position = _muzzleTransform.position;
-        bullet.transform.rotation = _muzzleTransform.rotation;
-        AudioManager.Instance.PlaySoundFX("EnemyBullet");
-        _fireTimer = 0f;
+        if (_bulletObjectPool != null)
+        {
+            GameObject bullet = _bulletObjectPool.GetPooledObject(5);
+            bullet.transform.position = _muzzleTransform.position;
+            bullet.transform.rotation = _muzzleTransform.rotation;
+            AudioManager.Instance.PlaySoundFX("EnemyBullet");
+            _fireTimer = 0f;
+        }        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
-            int damage = other.GetComponent<BulletController>().Damage;
-            StartCoroutine(WeaponBoxGrayHit(damage));
+            //int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(WeaponBoxGrayHit(1));
         }
     }
     IEnumerator WeaponBoxGrayHit(int damage)

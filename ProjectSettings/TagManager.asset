@@ -16,6 +16,9 @@ TagManager:
   - RedDoor
   - PlayerXAxisLimit
   - Water
+  - TriggersFly
+  - TriggersClimbers
+  - BorderDie
   layers:
   - Default
   - TransparentFX

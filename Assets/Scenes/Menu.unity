@@ -1365,6 +1365,7 @@ MonoBehaviour:
   _selectImage: {fileID: 1339146010}
   _gameEntryUI: {fileID: 830600402}
   _gameEntyDuration: 2
+  _scoreText: {fileID: 1120290555}
 --- !u!82 &1715296367
 AudioSource:
   m_ObjectHideFlags: 0

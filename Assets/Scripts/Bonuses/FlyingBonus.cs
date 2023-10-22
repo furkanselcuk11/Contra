@@ -37,7 +37,6 @@ public class FlyingBonus : MonoBehaviour
             _flyingTimer += Time.fixedDeltaTime;
             if (flyingTime > _flyingTimer)
             {
-                Debug.Log("Uç");
                 _rigidbody.velocity = transform.right * _speed * Time.fixedDeltaTime;
             }
             else

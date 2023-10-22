@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     private AnimationController _animConttoller;
 
     public bool IsFire { get => _isFire; set => _isFire = value; }
+    public bool IsCanBeShoot { get => _isCanBeShoot; set => _isCanBeShoot = value; }
+
     void Start()
     {
         _health = _maxHealth;
@@ -152,10 +154,13 @@ public class PlayerController : MonoBehaviour
     }
     public IEnumerator PlayerHit()
     {
-        _isCanBeShoot = false;
+        IsCanBeShoot = false;
         _rigidBody.AddForce(Vector2.up * _data.JumpSpeed / 1.5f * Time.fixedDeltaTime, ForceMode2D.Impulse);
         yield return new WaitForSeconds(0.25f);
         _animConttoller.Die();
+        _rigidBody.velocity = Vector3.zero;
+        GetComponent<CapsuleCollider2D>().isTrigger = true;
+        _rigidBody.gravityScale = 0f;
         AudioManager.Instance.PlaySoundFX("PlayerHit");    // Player vurulma çalacak
 
         GetComponent<Shooter>().ResetWeapon();
@@ -173,12 +178,15 @@ public class PlayerController : MonoBehaviour
     }
     IEnumerator PlayerRestart()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.2f);
+        GetComponent<CapsuleCollider2D>().isTrigger = false;
+        _rigidBody.gravityScale = 1f;
+        yield return new WaitForSeconds(1.8f);
         transform.position = new Vector3(transform.position.x - 1f, 2f, transform.position.z);
         _animConttoller.ResetAnim();
+        yield return new WaitForSeconds(1f);
         GameManager.Instance.IsDeath = false;
-        yield return new WaitForSeconds(2f);
-        _isCanBeShoot = true;
+        IsCanBeShoot = true;
     }
     void HealthSpritesUpdate()
     {
@@ -196,7 +204,29 @@ public class PlayerController : MonoBehaviour
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("EnemyBullet"))
         {
-            if (_isCanBeShoot) StartCoroutine(PlayerHit());
+            if (IsCanBeShoot) StartCoroutine(PlayerHit());
+        }
+        if (other.CompareTag("BorderDie"))
+        {
+            if (IsCanBeShoot) StartCoroutine(PlayerHit());
+        }
+        if (other.CompareTag("TriggersFly"))
+        {
+            int flybonusNumber = int.Parse(other.gameObject.name);
+            StageController.Instance.FlyBonusOpen(flybonusNumber);
+            other.gameObject.tag = "Untagged";
+        }
+        if (other.CompareTag("TriggersClimbers"))
+        {
+            int ClimberNumber = int.Parse(other.gameObject.name);
+            StageController.Instance.IsSpawning = true;
+            StageController.Instance.Timer = 0f;
+            StageController.Instance.SpawnEnemies(ClimberNumber);
+            other.gameObject.tag = "Untagged";
+        }
+        if (other.CompareTag("Finish"))
+        {
+            GameManager.Instance.FirstScene();
         }
     }
 }

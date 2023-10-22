@@ -43,19 +43,22 @@ public class AmbushEnemyController : MonoBehaviour
     void Update()
     {
         AnimChanged();
-        CharacterRotation();
+        if (_player != null)
+        {
+            CharacterRotation();
 
-        if (DistanceToPlayer() < _chaseDistance)
-        {
-            // Eðer player ile arasýndaki mesafe _chaseDistance az ise Player'a bak ve Ateþ et
-            _isFire = true;
-            _isCanBeShoot = true;
-        }
-        else
-        {
-            _isFire = false;
-            _isCanBeShoot = false;
-        }
+            if (DistanceToPlayer() < _chaseDistance)
+            {
+                // Eðer player ile arasýndaki mesafe _chaseDistance az ise Player'a bak ve Ateþ et
+                _isFire = true;
+                _isCanBeShoot = true;
+            }
+            else
+            {
+                _isFire = false;
+                _isCanBeShoot = false;
+            }
+        }        
     }
     void CharacterRotation()
     {
@@ -97,15 +100,22 @@ public class AmbushEnemyController : MonoBehaviour
     public void Shoot()
     {
         //GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
-        GameObject bullet = _bulletObjectPool.GetPooledObject(5);
-        bullet.transform.position = _muzzleTransform.position;
-        bullet.transform.rotation = _muzzleTransform.rotation;
-        AudioManager.Instance.PlaySoundFX("EnemyBullet");
+        if (_bulletObjectPool != null)
+        {
+            GameObject bullet = _bulletObjectPool.GetPooledObject(5);
+            bullet.transform.position = _muzzleTransform.position;
+            bullet.transform.rotation = _muzzleTransform.rotation;
+            AudioManager.Instance.PlaySoundFX("EnemyBullet");
+        }        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot && !_isDeath)
+        {
+            StartCoroutine(EnemyHit());
+        }
+        if (other.CompareTag("PlayerXAxisLimit") && !_isDeath)
         {
             StartCoroutine(EnemyHit());
         }

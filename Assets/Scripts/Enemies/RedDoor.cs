@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class RedDoor : MonoBehaviour
 {
@@ -14,6 +13,7 @@ public class RedDoor : MonoBehaviour
     [SerializeField] private GameObject _explodedDoor;
     [SerializeField] private int _maxHealth = 3;
     private int _health;
+    [SerializeField] private GameObject _gameEnd;
     void Start()
     {
         _health = _maxHealth;
@@ -21,13 +21,16 @@ public class RedDoor : MonoBehaviour
     }
     void Update()
     {
-        if (DistanceToPlayer() < _chaseFireDistance)
+        if (_player != null)
         {
-            _isCanBeShoot = true;
-        }
-        else
-        {
-            _isCanBeShoot = false;
+            if (DistanceToPlayer() < _chaseFireDistance)
+            {
+                _isCanBeShoot = true;
+            }
+            else
+            {
+                _isCanBeShoot = false;
+            }
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -35,8 +38,8 @@ public class RedDoor : MonoBehaviour
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
-            int damage = other.GetComponent<BulletController>().Damage;
-            StartCoroutine(RedDoorHit(damage));
+            //int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(RedDoorHit(1));
         }
     }
     IEnumerator RedDoorHit(int damage)
@@ -56,6 +59,7 @@ public class RedDoor : MonoBehaviour
         GameObject bulletImpact = Instantiate(_enemyExplosionPrefab, this.gameObject.transform.position, Quaternion.identity);
         Destroy(bulletImpact, 0.5f);
         Destroy(gameObject);
+        _gameEnd.SetActive(true);
     }
     private float DistanceToPlayer()
     {

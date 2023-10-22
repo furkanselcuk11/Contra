@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using DG.Tweening;
 using System;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class MenuUIController : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class MenuUIController : MonoBehaviour
     [SerializeField] private GameObject _gameEntryUI;
     [SerializeField] private float _gameEntyDuration = 2f;
     bool _isGameEntry = false;
+    [SerializeField] private TextMeshProUGUI _scoreText;
+    private int _score = 0;
     void Start()
     {
         AudioManager.Instance.PlayMusic("TitleScreen");
@@ -25,6 +29,7 @@ public class MenuUIController : MonoBehaviour
         // DOTween kullanarak RectTransform'in pozisyonunu deðiþtir
         _backGround.GetComponent<RectTransform>().DOAnchorPos(_backGroundPos, _backGroundDuration); // Hedef pozisyona 2 saniyede ulaþ        
         StartCoroutine(SelectImageCoroutine());
+        ScoreLoad();
     }
     void Update()
     {
@@ -68,5 +73,21 @@ public class MenuUIController : MonoBehaviour
             // Baþlangýç rengine geri dön
             yield return DOTween.To(() => _selectImage.color, x => _selectImage.color = x, _selectImageFirstColor, 1.0f).WaitForCompletion();
         }
+    }
+    private void ScoreUIUpdate()
+    {
+        // Bilgileri ekranda gösterme
+        _scoreText.text = "HI " + _score;
+    }
+    public void ScoreLoad()
+    {
+        // Baþlangýçta PlayerPrefs'ten kaydedilmiþ bir skor varsa onu yükle
+        if (PlayerPrefs.HasKey("Score"))
+        {
+            _score = PlayerPrefs.GetInt("Score");
+        }
+        ScoreUIUpdate();
+        // PlayerPrefs.Save() ile deðiþiklikleri kaydetme
+        PlayerPrefs.Save();
     }
 }
