@@ -7,15 +7,18 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     public PlayerData Data { get { return _data; } }
+
     private Rigidbody2D _rigidBody;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private Transform _camera;
     [SerializeField] private Transform _playerXAxisLimitTransform;
     [SerializeField] private float _playerXAxisLimit = 5f;
     private bool _isGrounded;
+    private bool _isWater;
     [SerializeField] private int _maxHealth = 3;
     private int _health;
     private bool _isCanBeShoot = true;
+    bool _isFire = false;
 
     private float _horizontalMovement;
     private float _verticalMovement;
@@ -26,6 +29,8 @@ public class PlayerController : MonoBehaviour
 
     private PlayerData _data;
     private AnimationController _animConttoller;
+
+    public bool IsFire { get => _isFire; set => _isFire = value; }
     void Start()
     {
         _health = _maxHealth;
@@ -46,16 +51,21 @@ public class PlayerController : MonoBehaviour
         int layerMask = LayerMask.GetMask("Floor");
         _isGrounded = Physics2D.OverlapPoint(_groundCheck.position, layerMask);
 
+        int layerMaskWater = LayerMask.GetMask("Water");
+        _isWater = Physics2D.OverlapPoint(_groundCheck.position, layerMaskWater);
+
         _horizontalMovement = Input.GetAxis("Horizontal");
         _verticalMovement = Input.GetAxis("Vertical");
 
         Crouch(_verticalMovement);
         if (!GameManager.Instance.IsDeath && GameManager.Instance.GameStarted) Move();
+        if (!GameManager.Instance.IsDeath && GameManager.Instance.GameStarted) SwimMove();
     }
     void Move()
     {
-        if (_isGrounded)
+        if (_isGrounded && !_isWater)
         {
+            _isFire = true;
             Vector2 newVelocity = new Vector2(_horizontalMovement * _data.MoveSpeed * Time.fixedDeltaTime, _rigidBody.velocity.y);
             _rigidBody.velocity = newVelocity;
 
@@ -69,7 +79,7 @@ public class PlayerController : MonoBehaviour
                 _playerXAxisLimitTransform.position = objePozisyon;
             }
         }
-        else
+        else if (!_isGrounded && !_isWater)
         {
             // Zýplarken Yatay hareketi azalt
             float reducedHorizontalMovement = _horizontalMovement * 0.7f; // Örneðin yarýya indirmek için 0.5 kullanabilirsiniz
@@ -78,6 +88,39 @@ public class PlayerController : MonoBehaviour
         }
 
         _animConttoller.Move(_rigidBody.velocity, _horizontalMovement, _verticalMovement);
+    }
+    void SwimMove()
+    {
+        if (_isWater && !_isGrounded)
+        {
+            _animConttoller.SwimAnimOpen(true);
+            if (_verticalMovement >= 0)
+            {
+                Vector2 newVelocity = new Vector2(_horizontalMovement * _data.MoveSpeed * Time.fixedDeltaTime, _rigidBody.velocity.y);
+                _rigidBody.velocity = newVelocity;
+                _isFire = true;
+            }
+            else
+            {
+                _rigidBody.velocity = Vector3.zero;
+                _isFire = false;
+            }
+
+            if (_horizontalMovement > 0)
+            {
+                // Karakterin sol sýnýra geçmesini engelle
+                Vector3 objePozisyon = _playerXAxisLimitTransform.position;
+                // Sadece X pozisyonunu deðiþtir
+                objePozisyon.x = _camera.position.x - _playerXAxisLimit;
+                // Objeyi güncelle
+                _playerXAxisLimitTransform.position = objePozisyon;
+            }
+            _animConttoller.SwimMove(_rigidBody.velocity, _horizontalMovement, _verticalMovement);
+        }
+        else if (!_isWater)
+        {
+            _animConttoller.SwimAnimOpen(false);
+        }
     }
     void Jump()
     {

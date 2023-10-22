@@ -15,6 +15,7 @@ TagManager:
   - Bridge
   - RedDoor
   - PlayerXAxisLimit
+  - Water
   layers:
   - Default
   - TransparentFX

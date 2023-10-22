@@ -17,9 +17,12 @@ public class Shooter : MonoBehaviour
     bool _isMultiShoot = false;
     //private bool _isInterlacedShoot = false; // Taramalý atýþ durumu
     //private bool _isFire = false;
+
+    private PlayerController _player;
     void Start()
     {
         _bulletType = BulletType.bulletNormal;
+        _player = GetComponent<PlayerController>();
     }
     void Update()
     {
@@ -76,7 +79,7 @@ public class Shooter : MonoBehaviour
     void Fire()
     {
         _fireTimer += Time.deltaTime;
-        if (Input.GetMouseButton(0) && !GameManager.Instance.IsDeath)
+        if (Input.GetMouseButton(0) && !GameManager.Instance.IsDeath && _player.IsFire)
         {
             // RateOfFire süresi aralýðýnda ateþ eder
             if (_isMultiShoot)
