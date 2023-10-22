@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _playerXAxisLimit = 5f;
     private bool _isGrounded;
     private bool _isWater;
+    [SerializeField] private Transform _healthSpritesContent;
     [SerializeField] private int _maxHealth = 3;
     private int _health;
     private bool _isCanBeShoot = true;
@@ -40,6 +42,7 @@ public class PlayerController : MonoBehaviour
         _collider = GetComponent<CapsuleCollider2D>();
         _originalColliderSize = _collider.size;
         _originalColliderOffset = _collider.offset;
+        HealthSpritesUpdate();
     }
     void Update()
     {
@@ -159,6 +162,7 @@ public class PlayerController : MonoBehaviour
 
         _health = _health - 1;
         GameManager.Instance.IsDeath = true;
+        HealthSpritesUpdate();
         if (_health <= 0)
         {
             Debug.Log("Player is Dead");
@@ -173,8 +177,19 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(transform.position.x - 1f, 2f, transform.position.z);
         _animConttoller.ResetAnim();
         GameManager.Instance.IsDeath = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         _isCanBeShoot = true;
+    }
+    void HealthSpritesUpdate()
+    {
+        for (int i = 0; i < _maxHealth; i++)
+        {
+            _healthSpritesContent.transform.GetChild(i).GetComponent<Image>().enabled = false;
+        }
+        for (int i = 0; i < _health; i++)
+        {
+            _healthSpritesContent.transform.GetChild(i).GetComponent<Image>().enabled = true;
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

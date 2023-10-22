@@ -42,10 +42,12 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(2);
         AudioManager.Instance.PlayMusic("JungleHangar");
         _gameStarted = true;
+        _isDeath = false;
     }
     public void GameOver()
     {
         Debug.Log("Game Over!!!");
+        AudioManager.Instance.StopMusic("JungleHangar");
         _gameStarted = false;
         SceneManager.LoadScene(0);
     }
