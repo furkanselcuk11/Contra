@@ -192,7 +192,8 @@ MonoBehaviour:
   _camera: {fileID: 0}
   _playerXAxisLimitTransform: {fileID: 0}
   _playerXAxisLimit: 4
-  _maxHealth: 100
+  _healthSpritesContent: {fileID: 0}
+  _maxHealth: 5
 --- !u!114 &5313895749846808890
 MonoBehaviour:
   m_ObjectHideFlags: 0
