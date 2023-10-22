@@ -46,7 +46,12 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
-        Debug.Log("Game Over!!!");
+        AudioManager.Instance.StopMusic("JungleHangar");
+        _gameStarted = false;
+        SceneManager.LoadScene(0);
+    }
+    public void FirstScene()
+    {
         AudioManager.Instance.StopMusic("JungleHangar");
         _gameStarted = false;
         SceneManager.LoadScene(0);

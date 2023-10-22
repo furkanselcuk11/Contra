@@ -29,17 +29,20 @@ public class BonusBox : MonoBehaviour
     }
     void Update()
     {
-        if (DistanceToPlayer() < _chaseDistance)
+        if (_player != null)
         {
-            ResetAnim();
-            _animator.SetTrigger("Open");
-            _isCanBeShoot = true;
-        }
-        else
-        {
-            ResetAnim();
-            _animator.SetTrigger("Close");
-            _isCanBeShoot = false;
+            if (DistanceToPlayer() < _chaseDistance)
+            {
+                ResetAnim();
+                _animator.SetTrigger("Open");
+                _isCanBeShoot = true;
+            }
+            else
+            {
+                ResetAnim();
+                _animator.SetTrigger("Close");
+                _isCanBeShoot = false;
+            }
         }
     }
     private void ResetAnim()
@@ -52,8 +55,8 @@ public class BonusBox : MonoBehaviour
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && !_bonusOpened && _isCanBeShoot)
         {
-            int damage = other.GetComponent<BulletController>().Damage;
-            StartCoroutine(BonusBoxHit(damage));
+            //int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(BonusBoxHit(1));
         }
     }
     IEnumerator BonusBoxHit(int damage)

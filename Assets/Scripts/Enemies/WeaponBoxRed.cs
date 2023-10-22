@@ -31,18 +31,21 @@ public class WeaponBoxRed : MonoBehaviour
     }
     void Update()
     {
-        if (DistanceToPlayer() < _chaseFireDistance)
+        if (_player != null)
         {
-            _isFire = true;
-            _isCanBeShoot = true;
+            if (DistanceToPlayer() < _chaseFireDistance)
+            {
+                _isFire = true;
+                _isCanBeShoot = true;
+            }
+            else
+            {
+                _isFire = false;
+                _isCanBeShoot = false;
+            }
+            Rotation();
+            Fire();
         }
-        else
-        {
-            _isFire = false;
-            _isCanBeShoot = false;
-        }
-        Rotation();
-        Fire();
     }
     void Rotation()
     {
@@ -92,19 +95,22 @@ public class WeaponBoxRed : MonoBehaviour
     }
     private void Shoot()
     {
-        GameObject bullet = _bulletObjectPool.GetPooledObject(5);
-        bullet.transform.position = _muzzleTransform.position;
-        bullet.transform.rotation = _muzzleTransform.rotation;
-        AudioManager.Instance.PlaySoundFX("EnemyBullet");
-        _fireTimer = 0f;
+        if (_bulletObjectPool != null)
+        {
+            GameObject bullet = _bulletObjectPool.GetPooledObject(5);
+            bullet.transform.position = _muzzleTransform.position;
+            bullet.transform.rotation = _muzzleTransform.rotation;
+            AudioManager.Instance.PlaySoundFX("EnemyBullet");
+            _fireTimer = 0f;
+        }        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
-            int damage = other.GetComponent<BulletController>().Damage;
-            StartCoroutine(WeaponBoxRedHit(damage));
+            //int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(WeaponBoxRedHit(1));
         }
     }
     IEnumerator WeaponBoxRedHit(int damage)

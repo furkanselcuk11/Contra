@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class GameEndWeapons : MonoBehaviour
 {
@@ -28,31 +27,37 @@ public class GameEndWeapons : MonoBehaviour
     }
     void Update()
     {
-        if (DistanceToPlayer() < _chaseFireDistance)
+        if (_player != null)
         {
-            _animator.SetTrigger("Open");
-            _isCanBeShoot = true;
-        }
-        else
-        {
-            _animator.ResetTrigger("Open");
-            _isCanBeShoot = false;
-        }
+            if (DistanceToPlayer() < _chaseFireDistance)
+            {
+                _animator.SetTrigger("Open");
+                _isCanBeShoot = true;
+            }
+            else
+            {
+                _animator.ResetTrigger("Open");
+                _isCanBeShoot = false;
+            }
+        }         
     }
     public void Shoot()
     {
-        GameObject bullet = _bulletObjectPool.GetPooledObject(6);
-        bullet.transform.position = _muzzleTransform.position;
-        bullet.transform.rotation = _muzzleTransform.rotation;
-        AudioManager.Instance.PlaySoundFX("EnemyBullet");
+        if (_bulletObjectPool != null)
+        {
+            GameObject bullet = _bulletObjectPool.GetPooledObject(6);
+            bullet.transform.position = _muzzleTransform.position;
+            bullet.transform.rotation = _muzzleTransform.rotation;
+            AudioManager.Instance.PlaySoundFX("EnemyBullet");
+        }        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot)
         {
-            int damage = other.GetComponent<BulletController>().Damage;
-            StartCoroutine(GameEndWeaponHit(damage));
+            //int damage = other.GetComponent<BulletController>().Damage;
+            StartCoroutine(GameEndWeaponHit(1));
         }
     }
     IEnumerator GameEndWeaponHit(int damage)

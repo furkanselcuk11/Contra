@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class ClimberEnemyController : MonoBehaviour
 {
@@ -29,13 +28,16 @@ public class ClimberEnemyController : MonoBehaviour
     }
     private void Update()
     {
-        if (DistanceToPlayer() < _chaseDistance)
+        if (_player != null)
         {
-            _isCanBeShoot = true;
-        }
-        else
-        {
-            _isCanBeShoot = false;
+            if (DistanceToPlayer() < _chaseDistance)
+            {
+                _isCanBeShoot = true;
+            }
+            else
+            {
+                _isCanBeShoot = false;
+            }
         }
         if (_isCanBeShoot) Jump();
     }
@@ -60,13 +62,17 @@ public class ClimberEnemyController : MonoBehaviour
         {
             StartCoroutine(EnemyHit());
         }
+        if (other.CompareTag("PlayerXAxisLimit") && !_isDeath)
+        {
+            StartCoroutine(EnemyHit());
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && _isCanBeShoot && !_isDeath)
         {
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
-            if (player != null)
+            if (player != null && player.IsCanBeShoot)
             {
                 StartCoroutine(EnemyHit());
                 StartCoroutine(player.PlayerHit());

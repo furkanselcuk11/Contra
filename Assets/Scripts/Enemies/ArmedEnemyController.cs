@@ -2,9 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class ArmedEnemyController : MonoBehaviour
 {
@@ -42,28 +40,31 @@ public class ArmedEnemyController : MonoBehaviour
     void Update()
     {
         AnimChanged();
-        CharacterRotation();
+        if (_player != null)
+        {
+            CharacterRotation();
 
-        if (DistanceToPlayer() < _chaseDistance)
-        {
-            // Eðer player ile arasýndaki mesafe _chaseDistance az ise Player'a bak ve Ateþ et
-            _isFire = true;
-            _isCanBeShoot = true;
-        }
-        else
-        {
-            _isFire = false;
-            _isCanBeShoot = false;
-            _animator.SetBool("Idle", true);
-        }
-        Fire();
+            if (DistanceToPlayer() < _chaseDistance)
+            {
+                // Eðer player ile arasýndaki mesafe _chaseDistance az ise Player'a bak ve Ateþ et
+                _isFire = true;
+                _isCanBeShoot = true;
+            }
+            else
+            {
+                _isFire = false;
+                _isCanBeShoot = false;
+                _animator.SetBool("Idle", true);
+            }
+            Fire();
+        }        
     }
     private void FixedUpdate()
     {
 
     }
     private void Fire()
-    {
+    {        
         if (_isFire)
         {
             // Silahýn hedefini oyuncunun pozisyonu olarak ayarla
@@ -155,17 +156,23 @@ public class ArmedEnemyController : MonoBehaviour
     }
     private void Shoot()
     {
-        //GameObject bullet = Instantiate(_bulletPrefab, _muzzleTransform.transform.position, Quaternion.identity);
-        GameObject bullet = _bulletObjectPool.GetPooledObject(5);
-        bullet.transform.position = _muzzleTransform.position;
-        bullet.transform.rotation = _muzzleTransform.rotation;
-        AudioManager.Instance.PlaySoundFX("EnemyBullet");
-        _fireTimer = 0f;
+        if (_bulletObjectPool != null)
+        {
+            GameObject bullet = _bulletObjectPool.GetPooledObject(5);
+            bullet.transform.position = _muzzleTransform.position;
+            bullet.transform.rotation = _muzzleTransform.rotation;
+            AudioManager.Instance.PlaySoundFX("EnemyBullet");
+            _fireTimer = 0f;
+        }        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Temas edilen nesne bir mermi mi kontrol edin
         if (other.CompareTag("Bullet") && _isCanBeShoot && !_isDeath)
+        {
+            StartCoroutine(EnemyHit());
+        }
+        if (other.CompareTag("PlayerXAxisLimit") && !_isDeath)
         {
             StartCoroutine(EnemyHit());
         }
